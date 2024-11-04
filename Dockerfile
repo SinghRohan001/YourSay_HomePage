@@ -27,6 +27,7 @@ COPY --from=build /usr/src/app/dist ./dist
 
 FROM nginx:alpine
 COPY nginx.conf /etc/nginx/conf.d/default.conf
+COPY .ssl /etc/ssl
 COPY --from=build /usr/src/app/dist /usr/share/nginx/html
 
 CMD ["nginx", "-g", "daemon off;"]
