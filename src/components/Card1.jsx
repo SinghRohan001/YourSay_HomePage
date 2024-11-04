@@ -1,9 +1,9 @@
 import React from 'react'
 import Down from '../assets/Down.jpg'
 
-import item from '../assets/item.svg'
-import item2 from '../assets/item2.svg'
-import item3 from '../assets/item3.svg'
+import item from '../assets/Item.svg'
+import item2 from '../assets/Item2.svg'
+import item3 from '../assets/Item3.svg'
 
 const Card1 = () => {
   return (
