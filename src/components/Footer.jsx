@@ -1,3 +1,4 @@
+
 import React from "react";
 import Yoursay from "../assets/Yoursay.svg";
 import image1 from "../assets/image1.svg";
@@ -9,7 +10,6 @@ import linkedin from "../assets/linkedin.svg";
 import twitter from "../assets/twitter.svg";
 import instagram from "../assets/instagram.svg";
 import youtube from "../assets/youtube.svg";
-
 function Footer() {
   return (
     <footer className="bg-white text-black py-8">
@@ -37,7 +37,6 @@ function Footer() {
             </div>
           </div>
         </div>
-
         <div className="mt-8 grid grid-cols-2 md:grid-cols-2 font-montserrat lg:grid-cols-4 lg:gap-8">
           <div>
             <h3 className="text-lg font-[600] mb-2">Company</h3>
@@ -67,7 +66,6 @@ function Footer() {
             </ul>
           </div>
         </div>
-
         {/* About Section */}
         <div className="border-t flex flex-wrap justify-between w-full border-[#ACA7FF] mt-8 pt-4">
           <div className="lg:w-[54vw] ">
@@ -97,7 +95,6 @@ function Footer() {
             </div>
           </div>
         </div>
-
         {/* Disclaimer Section */}
         <div className="border-t flex border-[#ACA7FF] mt-8 pt-4">
           <div className="w-full">
@@ -129,7 +126,6 @@ function Footer() {
                 </div>
               </div>
             </div>
-
             <ul className="text-[#262626] space-y-2 w-full font-montserrat">
               <li>
                 • Opinion trading may involve financial risks. Please trade
@@ -141,7 +137,7 @@ function Footer() {
                 features.
               </li>
             </ul>
-            <div className=" block md:block mt-2 lg:hidden w-[90vw] h-[100%]">
+            <div className=" block md:block mt-2 lg:hidden ">
                 <div className="lg:flex lg:space-x-16 md:flex md:space-x-16 justify-between">
                   {/* Placeholder for social media icons */}
                   <div className="flex space-x-7 lg:space-x-0 ">
@@ -168,11 +164,9 @@ function Footer() {
               </div>
           </div>
         </div>
-
         {/* Social Media Icons */}
       </div>
     </footer>
   );
 }
-
 export default Footer;

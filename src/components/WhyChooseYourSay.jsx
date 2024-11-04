@@ -4,8 +4,6 @@ import Device from "../assets/device.svg"
 import Switch from "../assets/switch.svg"
 import Star from "../assets/star.svg"
 import Background from "../assets/background.svg"
-
-
 const WhyChooseYourSay = () => {
   return (
     <section className="bg-white py-6 bg-no-repeat bg-fit"
@@ -13,16 +11,15 @@ const WhyChooseYourSay = () => {
       backgroundImage: `url(${Background})`,
       backgroundPosition: "top right",
     }}>
-      <div className="  lg:mx-10 px-4">
-        <div className="md:flex lg:flex justify-between  ">
-          <h2 className="lg:text-[64px] md:text-[35px] text-2xl font-[600] text-[#101010] mb-8 font-montserrat mt-10">Why Choose YourSay</h2>
-          <div className="flex justify-end items-center mb-8">
-            <button className="bg-[#2E67F4] h-[52px] w-full font-[700] font-montserrat text-white py- px-6 rounded-lg mt-5">
+      <div className="lg:mx-10 px-4 ">
+        <div className="flex justify-between items-center   ">
+          <h2 className="lg:text-[64px] md:text-[35px] text-md font-[600] text-[#101010] md:mb-8 lg:mb-8 mb-4 font-montserrat ">Why Choose YourSay</h2>
+          <div className="flex justify-end items-center md:mb-8 lg:mb-8 mb-4">
+            <button className="bg-[#2E67F4] lg:h-[52px] lg:w-full md:h-[52px] md:w-full lg:text-[16px] md:text-[16px] text-[8px] font-[700] font-montserrat text-white md:px-6 lg:py-0 md:py-0 lg:px-6 px-2 py-2 rounded-lg">
               Start investing for FREE
             </button>
           </div>
         </div>
-
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Card 1 */}
           <div className="border border-[#E5E5E5] p-8 rounded-lg shadow-md">
@@ -40,7 +37,6 @@ const WhyChooseYourSay = () => {
               the market shifts.
             </p>
           </div>
-
           {/* Card 2 */}
           <div className="border border-[#E5E5E5] p-8 rounded-lg shadow-md">
             <img
@@ -57,7 +53,6 @@ const WhyChooseYourSay = () => {
               or book profits at any time, ensuring you're always in charge.
             </p>
           </div>
-
           {/* Card 3 */}
           <div className="border border-[#E5E5E5] p-8 rounded-lg shadow-md">
             <img
@@ -74,7 +69,6 @@ const WhyChooseYourSay = () => {
               Experience flexibility in every trade you make.
             </p>
           </div>
-
           {/* Card 4 */}
           <div className="border border-[#E5E5E5] p-8 rounded-lg shadow-md">
             <img
@@ -96,5 +90,4 @@ const WhyChooseYourSay = () => {
     </section>
   );
 };
-
 export default WhyChooseYourSay;

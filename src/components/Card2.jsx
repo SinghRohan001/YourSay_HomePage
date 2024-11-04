@@ -37,20 +37,20 @@ function Card2() {
       }}
     >
       <div className="pt-4 lg:pt-12">
-        <div className="mx-10">
-          <h1 className="text-white  md:text-[30px] lg:text-[48px] font-montserrat font-[700] text-center px-10">
+        <div className=" md:mx-10 lg:mx-10">
+          <h1 className="text-white text-[22px] md:text-[30px] lg:text-[48px] font-montserrat font-[700] text-center md:px-10 lg:px-10">
             YourSay: Empowering Your Trading Journey with Insight, Flexibility,
             and Success
           </h1>
         </div>
       </div>
-      <div className="w-full flex justify-center mt-8">
+      <div className="w-full flex justify-center md:mt-8 lg:mt-8">
         <div className="flex">
           <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 p-4 gap-6">
             {cards.map((card, index) => (
               <div
                 key={card.id}
-                className="bg-white rounded-lg h-full w-full lg:h-[357px] lg:w-[350px] shadow-lg p-6 pt-4 flex flex-col"
+                className="bg-white rounded-lg h-full w-full lg:h-[357px] lg:w-[350px] shadow-lg p-6 flex flex-col"
               >
                 {/* Icon Placeholder - Using dynamic image for each card */}
                 <div className="text-4xl mb-2  flex justify-between">
