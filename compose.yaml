@@ -4,6 +4,6 @@ services:
     build:
       context: .
     ports:
-      - 6060:3000
+      - 6060:5173
     volumes:
       - .:/app
