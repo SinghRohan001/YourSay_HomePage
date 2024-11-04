@@ -1,0 +1,9 @@
+services:
+  server:
+    container_name: yoursay-homepage
+    build:
+      context: .
+    ports:
+      - 6060:3000
+    volumes:
+      - .:/app
