@@ -19,8 +19,8 @@ const Card1 = () => {
             <p className='text-3xl lg:text-6xl md:text-4xl sm:text-3xl font-bold text-white p-4'>Its's easy to Start Playing with YourSay</p>
           </div>
           <div className='w-full flex justify-center mb-4'>
-            <div className=' rounded-l-full rounded-r-full px-2 py-4 mx-2 bg-white'>
-              <p className='font-[200] text-center text-md lg:text-2xl md:text-xl'>Play Opinion Trading on YourSay and win bog!</p>
+            <div className=' rounded-l-full rounded-r-full px-4 py-4 mx-2 bg-white'>
+              <p className='font-[200] text-center text-md lg:text-2xl md:text-lg'>Play Opinion Trading on YourSay and win bog!</p>
             </div>
 
           </div>
