@@ -1,0 +1,19 @@
+
+.hide-scrollbar {
+  overflow-x: auto;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* Hide scrollbar for WebKit browsers */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Additional property for mobile browsers */
+@media (max-width: 768px) {
+  .hide-scrollbar {
+    -webkit-overflow-scrolling: touch;
+  }
+}
+

@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@keyframes rotateAlternating {
+    0% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(180deg); /* Rotate clockwise */
+    }
+    100% {
+      transform: rotate(0deg); /* Rotate counterclockwise */
+    }
+  }
+
+  @keyframes rotateAlternating2 {
+    0% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(-180deg); /* Rotate clockwise */
+    }
+    100% {
+      transform: rotate(0deg); /* Rotate counterclockwise */
+    }
+  }
