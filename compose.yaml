@@ -1,9 +1,10 @@
 services:
   server:
+    restart: always
     container_name: yoursay-homepage
     build:
       context: .
     ports:
-      - 6060:5173
+      - 6060:6060
     volumes:
-      - .:/app
+      - ./ssl:/etc/ssl
