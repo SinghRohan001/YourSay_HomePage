@@ -46,7 +46,7 @@ const HomePage = () => {
                 type="button"
                 className="text-white font-[500] font-montserrat bg-blue-700 border-blue-700 border-[1px] hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 rounded-lg lg:text-lg md:text-lg text-sm px-3 py-2 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
               >
-                Download App Now
+                Coming Soon
               </button>
             </div>
           </div>

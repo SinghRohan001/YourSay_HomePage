@@ -16,25 +16,25 @@ const Navbar = () => {
           <img src={logo} alt="Logo" />
         </div>
 
-        <div className='hidden lg:flex font-montserrat items-center space-x-4'>
+        {/* <div className='hidden lg:flex font-montserrat items-center space-x-4'>
           <div className='p-1 ml-2 text-sm'>Trading</div>
           <div className='p-1 ml-2 text-sm'>Career</div>
           <div className='p-1 ml-2 text-sm'>Cares</div>
           <div className='p-1 ml-2 text-sm'>About us</div>
-        </div>
+        </div> */}
       </div>
 
       <div className='hidden lg:flex items-center space-x-2'>
         <div>
           <button type="button" className="text-white font-montserrat font-bold bg-blue-700 border-blue-700 border-[1px] hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 rounded-lg text-sm px-3 py-2 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">
-            Download Now
+            Coming Soon
           </button>
         </div>
-        <div>
+        {/* <div>
           <button type="button" className="text-blue-500 font-montserrat border-blue-500 border-[1px] font-bold rounded-lg text-sm px-5 py-2 me-2 mb-2">
             Trade Online
           </button>
-        </div>
+        </div> */}
       </div>
 
 
@@ -51,11 +51,11 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className='absolute top-full left-0 w-full bg-white shadow-md flex flex-col items-start p-4'>
-          <div className='p-1 mb-2 text-sm'>Trading</div>
+        <div className='absolute top-full left-0 w-full bg-white shadow-md flex flex-col items-start '>
+          {/* <div className='p-1 mb-2 text-sm'>Trading</div>
           <div className='p-1 mb-2 text-sm'>Career</div>
           <div className='p-1 mb-2 text-sm'>Cares</div>
-          <div className='p-1 mb-2 text-sm'>About us</div>
+          <div className='p-1 mb-2 text-sm'>About us</div> */}
         </div>
       )}
     </div>

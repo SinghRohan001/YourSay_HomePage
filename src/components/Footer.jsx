@@ -29,11 +29,11 @@ function Footer() {
             </span>
             <div className="flex space-x-4">
               <button className="bg-[#2E67F4] text-white font-montserrat font-[700] px-4 py-2 rounded-full">
-                Download App
+                Coming Soon
               </button>
-              <button className="border border-[#2E67F4] text-[#2E67F4] font-montserrat font-[700] px-4 py-2 rounded-full">
+              {/* <button className="border border-[#2E67F4] text-[#2E67F4] font-montserrat font-[700] px-4 py-2 rounded-full">
                 Trade Online
-              </button>
+              </button> */}
             </div>
           </div>
         </div>
