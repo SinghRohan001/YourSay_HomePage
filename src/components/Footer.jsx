@@ -9,6 +9,7 @@ import linkedin from "../assets/linkedin.svg";
 import twitter from "../assets/twitter.svg";
 import instagram from "../assets/instagram.svg";
 import youtube from "../assets/youtube.svg";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -43,14 +44,14 @@ function Footer() {
             <h3 className="text-lg font-[600] mb-2">Company</h3>
             <ul className="space-y-2 font-worksans font-[400]">
               <li>About Us</li>
-              <li>Culture</li>
+              <Link to="/terms-condition" className="hover:text-blue-700"><li>Terms and Condition</li></Link>
             </ul>
           </div>
           <div>
             <h3 className="text-lg font-[600] mb-2">Resources</h3>
             <ul className="space-y-2 font-worksans font-[400]">
               <li>Help Centre</li>
-              <li>Contact Support</li>
+              <Link to="/refund-policy" className="hover:text-blue-700"><li>Refund and Cancellation policy</li></Link>
             </ul>
           </div>
           <div>
@@ -60,7 +61,7 @@ function Footer() {
             </ul>
           </div>
           <div>
-            <h3 className="text-lg  font-[600] mb-2">Contact Us</h3>
+           <Link to="/contact-us"> <h3 className="text-lg  font-[600] mb-2 hover:text-blue-700">Contact Us</h3></Link>
             <ul className="space-y-2 font-worksans  lg:w-full font-[400]">
               <li>help@yoursay.live</li>
               <li className="break-words">communication@yoursay.live</li>

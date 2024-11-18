@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import logo from '../assets/Yoursay.svg';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -16,12 +17,12 @@ const Navbar = () => {
           <img src={logo} alt="Logo" />
         </div>
 
-        {/* <div className='hidden lg:flex font-montserrat items-center space-x-4'>
-          <div className='p-1 ml-2 text-sm'>Trading</div>
-          <div className='p-1 ml-2 text-sm'>Career</div>
-          <div className='p-1 ml-2 text-sm'>Cares</div>
-          <div className='p-1 ml-2 text-sm'>About us</div>
-        </div> */}
+        <div className='hidden lg:flex font-montserrat items-center space-x-4'>
+          {/* <div className='p-1 ml-2 text-sm'>Trading</div> */}
+          {/* <div className='p-1 ml-2 text-sm'>Career</div> */}
+          {/* <Link to="/refund-policy"><div className='p-1 ml-2 text-sm font-semibold text-blue-700'>Cancellation & Refund Policy</div></Link> */}
+          {/* <Link to="/terms-condition"><div className='p-1 ml-2 font-semibold text-blue-700 text-sm'>Terms and Condition</div></Link> */}
+        </div>
       </div>
 
       <div className='hidden lg:flex items-center space-x-2'>
