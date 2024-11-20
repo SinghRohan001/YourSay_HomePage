@@ -23,10 +23,13 @@ const Card1 = () => {
               </p>
             </div>
             <div className="w-full flex justify-center mb-4">
-              <div className=" rounded-l-full rounded-r-full px-6 py-3 mx-2 bg-white">
-                <p className="font-[400] text-center text-md lg:text-xl md:text-lg">
-                Trade Opinion on YourSay and win big!
-                </p>
+              <div className="rounded-l-full rounded-r-full px-6 py-3 mx-2 bg-white hover:bg-gray-200 focus-within:ring-4 focus-within:ring-blue-300">
+                <button
+                  type="button"
+                  className="font-[400] text-center font-montserrat text-black  focus:ring-blue-300 rounded-lg lg:text-xl md:text-lg text-md focus:outline-none"
+                >
+                  Trade Opinion on YourSay and win big!
+                </button>
               </div>
             </div>
 
@@ -45,15 +48,15 @@ const Card1 = () => {
 
             <div className="flex lg:flex-row flex-col w-full justify-center mt-5 items-center">
               <div className="m-4">
-                <img src={item} alt="" className="lg:w-[350px] "/>
+                <img src={item} alt="" className="lg:w-[350px] " />
               </div>
 
               <div className="m-4">
-                <img src={item3} alt="" className="lg:w-[350px] "/>
+                <img src={item3} alt="" className="lg:w-[350px] " />
               </div>
 
               <div className="m-4">
-                <img src={item2} alt="" className="lg:w-[350px] "/>
+                <img src={item2} alt="" className="lg:w-[350px] " />
               </div>
             </div>
           </div>

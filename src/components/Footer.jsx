@@ -29,7 +29,7 @@ function Footer() {
               <span className="flex justify-end">above only</span>
             </span>
             <div className="flex space-x-4">
-              <button className="bg-[#2E67F4] text-white font-montserrat font-[700] px-4 py-2 rounded-full">
+              <button className="bg-[#2E67F4] hover:bg-blue-700 focus-within:ring-4 focus-within:ring-blue-800  text-white font-montserrat font-[700] px-4 py-2 rounded-full">
                 Coming Soon
               </button>
               {/* <button className="border border-[#2E67F4] text-[#2E67F4] font-montserrat font-[700] px-4 py-2 rounded-full">
@@ -145,7 +145,7 @@ function Footer() {
             <div className=" block md:block mt-2 lg:hidden ">
               <div className="lg:flex lg:space-x-16 md:flex md:space-x-16 justify-between">
                 {/* Placeholder for social media icons */}
-                <div className="flex space-x-7 lg:space-x-0 ">
+                <div className="flex space-x-7 py-1 lg:space-x-0 ">
                   <div className="flex items-center space-x-2">
                     <img src={linkedin} />
                     <p className="font-worksans font-[600] ">Linkedin</p>
@@ -155,7 +155,7 @@ function Footer() {
                     <p className="font-worksans font-[600]">Twitter</p>
                   </div>
                 </div>
-                <div className="flex space-x-4 lg:space-x-0 ">
+                <div className="flex space-x-4 pb-1 lg:space-x-0 ">
                   <div className="flex items-center space-x-2">
                     <img src={instagram} />
                     <p className="font-worksans font-[600]">Instagram</p>

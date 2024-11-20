@@ -30,7 +30,7 @@ const HomePage = () => {
           </div>
         </div>
 
-        <div className="flex justify-center items-start lg:h-screen mb-6">
+        <div className="flex relative justify-center items-start lg:h-screen mb-6">
           <div className="w-[100%] lg:w-[35%] md:w-[50%] mt-20 lg:mt-20 md:mt-20 flex flex-col justify-center">
             <h1 className="lg:text-5xl md:text-xl text-3xl lg:mt-0 md:mt-0 mt-6 text-center font-montserrat font-[700] tracking-wider">
               Turn Your Opinions into Real Rewards!
@@ -44,7 +44,7 @@ const HomePage = () => {
             <div className="lg:mt-8 md:mt-3 mt-8 flex justify-center">
               <button
                 type="button"
-                className="text-white font-[500] font-montserrat bg-blue-700 border-blue-700 border-[1px] hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 rounded-lg lg:text-lg md:text-md text-sm px-3 py-2 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+                className="text-white font-[500] font-montserrat bg-blue-600 hover:bg-blue-700 focus-within:ring-4 focus-within:ring-blue-800 border-blue-700 border-[1px] rounded-lg lg:text-lg md:text-md text-sm px-3 py-2 me-2 mb-2 cursor-pointer"
               >
                 Coming Soon
               </button>
