@@ -26,7 +26,7 @@ const Card1 = () => {
               <div className="rounded-l-full rounded-r-full px-6 py-3 mx-2 bg-white hover:bg-gray-200 focus-within:ring-4 focus-within:ring-blue-300">
                 <button
                   type="button"
-                  className="font-[400] text-center font-montserrat text-black  focus:ring-blue-300 rounded-lg lg:text-xl md:text-lg text-md focus:outline-none"
+                  className="font-[400] text-center font-montserrat text-black  focus:ring-blue-300 rounded-lg lg:text-xl md:text-lg text-sm focus:outline-none"
                 >
                   Trade Opinion on YourSay and win big!
                 </button>

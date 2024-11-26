@@ -46,7 +46,7 @@ function Card2() {
           </h1>
         </div>
       </div>
-      <div className="w-full flex justify-center md:mt-8 lg:mt-8">
+      <div className="w-full flex justify-center md:mt-2 lg:mt-8">
         <div className="flex">
           <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 p-4 lg:p-0 lg:gap-36 gap-6 ">
             {cards.map((card, index) => (
@@ -61,7 +61,7 @@ function Card2() {
                 <h3 className="text-xl text-[#101010] mb-2 font-montserrat font-[600]">
                   {card.title}
                 </h3>
-                <p className="text-sm text-[#6A6A6A] font-montserrat font-[400] mb-4">
+                <p className="text-sm text-[#6A6A6A] font-montserrat font-[400] lg:mb-4 mb-0">
                   {card.description}
                 </p>
               </div>

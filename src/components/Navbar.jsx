@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logo from '../assets/Yoursay.svg';
+import logo from '../assets/yslogo.svg';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <div className='fixed top-0 left-0 flex justify-between px-6 p-3 shadow-md w-full z-20 bg-white'>
-      <div className='flex '>
+      <div className='flex items-center'>
         <div>
           <img src={logo} alt="Logo" />
         </div>
@@ -37,9 +37,6 @@ const Navbar = () => {
           </button>
         </div> */}
       </div>
-
-
-
 
       <div className='lg:hidden flex items-center'>
         <button onClick={toggleMenu} className='text-blue-500'>

@@ -1,5 +1,5 @@
 import React from "react";
-import Yoursay from "../assets/Yoursay.svg";
+import Yoursay from "../assets/yslogo.svg";
 import image1 from "../assets/image1.svg";
 import image2 from "../assets/image2.svg";
 import image3 from "../assets/image3.svg";
@@ -24,12 +24,12 @@ function Footer() {
           </div>
           {/* Download and Sign In */}
           <div className="flex lg:space-x-12 items-center mb-6">
-            <span className="text-sm hidden md:block font-montserrat font-[400] text-[#000000]">
+            <span className="text-sm hidden mr-4 md:block font-montserrat font-[400] text-[#000000]">
               For 18 years and <br />
               <span className="flex justify-end">above only</span>
             </span>
             <div className="flex space-x-4">
-              <button className="bg-[#2E67F4] hover:bg-blue-700 focus-within:ring-4 focus-within:ring-blue-800  text-white font-montserrat font-[700] px-4 py-2 rounded-full">
+              <button className="bg-[#2E67F4] hover:bg-blue-700 focus-within:ring-4 focus-within:ring-blue-800  text-white font-montserrat font-[700] px-4 py-2 rounded-lg">
                 Coming Soon
               </button>
               {/* <button className="border border-[#2E67F4] text-[#2E67F4] font-montserrat font-[700] px-4 py-2 rounded-full">
@@ -143,7 +143,7 @@ function Footer() {
               </li>
             </ul>
             <div className=" block md:block mt-2 lg:hidden ">
-              <div className="lg:flex lg:space-x-16 md:flex md:space-x-16 justify-between">
+              <div className="lg:flex lg:space-x-16 md:flex md:space-x-4 lg:justify-between ">
                 {/* Placeholder for social media icons */}
                 <div className="flex space-x-7 py-1 lg:space-x-0 ">
                   <div className="flex items-center space-x-2">
