@@ -46,7 +46,7 @@ const HomePage = () => {
                 type="button"
                 className="text-white font-[500] font-montserrat bg-blue-600 hover:bg-blue-700 focus-within:ring-4 focus-within:ring-blue-800 border-blue-700 border-[1px] rounded-lg lg:text-lg md:text-md text-sm px-3 py-2 me-2 mb-2 cursor-pointer"
               >
-                Trade Online
+                Trade Now
               </button>
             </div>
           </div>

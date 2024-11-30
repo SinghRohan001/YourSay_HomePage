@@ -28,12 +28,12 @@ const Navbar = () => {
       <div className='hidden lg:flex items-center space-x-2'>
         <div>
           <button type="button" className="text-white font-montserrat font-bold bg-blue-700 border-blue-700 border-[1px] hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 rounded-lg text-sm px-3 py-2 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">
-            Trade Online
+            Trade Now
           </button>
         </div>
         {/* <div>
           <button type="button" className="text-blue-500 font-montserrat border-blue-500 border-[1px] font-bold rounded-lg text-sm px-5 py-2 me-2 mb-2">
-            Trade Online
+            Trade online
           </button>
         </div> */}
       </div>

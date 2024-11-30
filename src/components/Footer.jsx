@@ -30,7 +30,7 @@ function Footer() {
             </span>
             <div className="flex space-x-4">
               <button className="bg-[#2E67F4] hover:bg-blue-700 focus-within:ring-4 focus-within:ring-blue-800  text-white font-montserrat font-[700] px-4 py-2 rounded-lg">
-                Trade Online
+                Trade Now
               </button>
               {/* <button className="border border-[#2E67F4] text-[#2E67F4] font-montserrat font-[700] px-4 py-2 rounded-full">
                 Trade Online
