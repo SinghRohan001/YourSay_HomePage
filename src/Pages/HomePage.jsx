@@ -16,7 +16,7 @@ const HomePage = () => {
       <div className="lg:mb-14 md:mb-52"> 
         <div className="relative">
           <div className="flex justify-center items-center">
-            <div className="absolute lg:mt-20 mt-32 animate-[rotateAlternating_20s_linear_infinite] z-0 hidden md:block lg:block">
+            <div className="absolute lg:mt-20 mt-32 animate-[rotateAlternating_15s_linear_infinite] z-0 hidden md:block lg:block">
               <img src={rotate1} alt="Rotating background 3" className="lg:w-[100%] md:w-[96vw]"/>
             </div>
 
@@ -24,7 +24,7 @@ const HomePage = () => {
             <img src={rotate3} alt="Rotating background 2" className="lg:w-[100%] md:w-[80vw]"/>
             </div>
 
-            <div className="absolute mt-52 animate-[rotateAlternating_20s_linear_infinite] z-0 hidden md:block lg:block">
+            <div className="absolute mt-52 animate-[rotateAlternating_25s_linear_infinite] z-0 hidden md:block lg:block">
               <img src={rotate2} alt="Rotating background 1" className="lg:w-[100%] md:w-[62vw]"/>
             </div>
           </div>
