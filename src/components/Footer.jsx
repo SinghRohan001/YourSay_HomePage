@@ -29,7 +29,12 @@ function Footer() {
               <span className="flex justify-end">above only</span>
             </span>
             <div className="flex space-x-4">
-              <button className="bg-[#2E67F4] hover:bg-blue-700 focus-within:ring-4 focus-within:ring-blue-800  text-white font-montserrat font-[700] px-4 py-2 rounded-lg">
+              <button
+                className="bg-[#2E67F4] hover:bg-blue-700 focus-within:ring-4 focus-within:ring-blue-800  text-white font-montserrat font-[700] px-4 py-2 rounded-lg"
+                onClick={() =>
+                  window.open("https://trading.yoursay.live/", "_blank")
+                }
+              >
                 Trade Now
               </button>
               {/* <button className="border border-[#2E67F4] text-[#2E67F4] font-montserrat font-[700] px-4 py-2 rounded-full">
@@ -44,14 +49,18 @@ function Footer() {
             <h3 className="text-lg font-[600] mb-2">Company</h3>
             <ul className="space-y-2 font-worksans font-[400]">
               <li>About Us</li>
-              <Link to="/terms-condition" className="hover:text-blue-700"><li>Terms and Condition</li></Link>
+              <Link to="/terms-condition" className="hover:text-blue-700">
+                <li>Terms and Condition</li>
+              </Link>
             </ul>
           </div>
           <div>
             <h3 className="text-lg font-[600] mb-2">Resources</h3>
             <ul className="space-y-2 font-worksans font-[400]">
               <li>Help Centre</li>
-              <Link to="/refund-policy" className="hover:text-blue-700"><li>Refund and Cancellation policy</li></Link>
+              <Link to="/refund-policy" className="hover:text-blue-700">
+                <li>Refund and Cancellation policy</li>
+              </Link>
             </ul>
           </div>
           <div>
@@ -61,7 +70,12 @@ function Footer() {
             </ul>
           </div>
           <div>
-           <Link to="/contact-us"> <h3 className="text-lg  font-[600] mb-2 hover:text-blue-700">Contact Us</h3></Link>
+            <Link to="/contact-us">
+              {" "}
+              <h3 className="text-lg  font-[600] mb-2 hover:text-blue-700">
+                Contact Us
+              </h3>
+            </Link>
             <ul className="space-y-2 font-worksans  lg:w-full font-[400]">
               <li>help@yoursay.live</li>
               <li className="break-words">communication@yoursay.live</li>
