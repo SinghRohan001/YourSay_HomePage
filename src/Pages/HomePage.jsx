@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Card from "../components/Card";
 import rotate3 from "../assets/Trade sign1.svg";
-import rotate2 from "../assets/Profiles1.svg";
+import rotate2 from "../assets/circle1.svg";
 import rotate1 from "../assets/Category.svg";
 import WhyChooseYourSay from "../components/WhyChooseYourSay";
 import Card1 from "../components/Card1";
@@ -16,11 +16,11 @@ const HomePage = () => {
       <div className="lg:mb-14 md:mb-52"> 
         <div className="relative">
           <div className="flex justify-center items-center">
-            <div className="absolute lg:mt-20 mt-32 animate-[rotateAlternating_15s_linear_infinite] z-0 hidden md:block lg:block">
+            <div className="absolute lg:mt-20 mt-32 animate-[rotateAlternating_25s_linear_infinite] z-0 hidden md:block lg:block">
               <img src={rotate1} alt="Rotating background 3" className="lg:w-[100%] md:w-[96vw]"/>
             </div>
 
-            <div className="absolute lg:mt-36 mt-40 animate-[rotateAlternating2_20s_linear_infinite] z-0 hidden md:block lg:block">
+            <div className="absolute lg:mt-32 mt-40 animate-[rotateAlternating2_25s_linear_infinite] z-0 hidden md:block lg:block">
             <img src={rotate3} alt="Rotating background 2" className="lg:w-[100%] md:w-[80vw]"/>
             </div>
 
@@ -46,7 +46,7 @@ const HomePage = () => {
                 type="button"
                 className="text-white font-[500] font-montserrat bg-blue-600 hover:bg-blue-700 focus-within:ring-4 focus-within:ring-blue-800 border-blue-700 border-[1px] rounded-lg lg:text-lg md:text-md text-sm px-3 py-2 me-2 mb-2 cursor-pointer"
               >
-                Coming Soon
+                Trade Online
               </button>
             </div>
           </div>
