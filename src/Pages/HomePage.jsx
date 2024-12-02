@@ -1,9 +1,9 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Card from "../components/Card";
-import rotate3 from "../assets/Trade sign1.svg";
+import rotate3 from "../assets/Rewards.svg";
 import rotate2 from "../assets/circle1.svg";
-import rotate1 from "../assets/Category.svg";
+import rotate1 from "../assets/Category 1.svg";
 import WhyChooseYourSay from "../components/WhyChooseYourSay";
 import Card1 from "../components/Card1";
 import Card2 from "../components/Card2";
