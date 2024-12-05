@@ -6,6 +6,7 @@ import SignUp from './Pages/SignUp'
 import ContactUs from './Pages/ContactUs';
 import TermsAndCondition from './Pages/TermsAndCondition';
 import Refund from './Pages/Refund';
+import Privacy from './Pages/Privacy';
 
 const App = () => {
   return (
@@ -17,6 +18,8 @@ const App = () => {
         <Route path="/contact-us" element={<ContactUs/>}/>
         <Route path="/terms-condition" element={<TermsAndCondition/>}/>
         <Route path="/refund-policy" element={<Refund/>}/>
+        <Route path="/privacy-policy" element={<Privacy/>}/>
+
       </Routes>
     </div>
   )

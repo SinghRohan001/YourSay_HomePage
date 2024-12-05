@@ -67,6 +67,9 @@ function Footer() {
             <h3 className="text-lg font-[600] mb-2">Careers</h3>
             <ul className="space-y-2 font-worksans font-[400]">
               <li>Open Roles</li>
+              <Link to="/privacy-policy" className="hover:text-blue-700">
+                <li>Privacy policy</li>
+              </Link>
             </ul>
           </div>
           <div>

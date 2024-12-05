@@ -20,7 +20,7 @@ const HomePage = () => {
               <img
                 src={rotate1}
                 alt="Rotating background 3"
-                className="lg:max-w-[1416px] md:max-w-[764px]"
+                className="lg:max-w-[1400px] md:max-w-[764px]"
               />
             </div>
 
