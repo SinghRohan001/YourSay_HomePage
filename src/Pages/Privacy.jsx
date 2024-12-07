@@ -10,11 +10,10 @@ const Privacy = () => {
     <div className="bg-gray-100 min-h-screen py-10 px-5">
       <div className="mx-auto bg-white shadow-md rounded-md w-full">
         <div className="bg-gradient-to-r from-blue-500 to-blue-700 text-white p-6 w-full rounded-t-lg">
-          <h1 className="text-3xl text-white font-bold mb-6">Privacy Policy</h1>
+          <h1 className="text-3xl text-white font-bold mb-2">Privacy Policy</h1>
         </div>
         <div className="px-8">
-          <p className="mb-4">Last Updated on [2 December 2024]</p>
-          <h2 className="text-xl font-semibold mb-4">1. GENERAL</h2>
+          <h2 className="text-xl font-semibold mb-4 mt-4">1. GENERAL</h2>
           <ul className="list-disc list-inside mb-6">
             <li className="mb-2">
               We, ASAR Gaming Network Private Limited, a company registered

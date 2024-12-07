@@ -8,7 +8,6 @@ const ContactUs = () => {
 
       <div class="bg-gradient-to-r from-blue-500 to-blue-700 text-white p-6 rounded-t-lg">
         <h1 class="text-3xl font-bold">Contact Us</h1>
-        <p class="mt-2 text-sm">Last updated on <span class="font-medium">18-11-2024 14:02:40</span></p>
       </div>
 
 

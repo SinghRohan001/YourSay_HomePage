@@ -15,8 +15,7 @@ const TermsAndCondition = () => {
           </h1>
         </div>
         <div className="px-8">
-          <p className="mb-4">Last Updated on [2 December 2024]</p>
-          <p className="mb-4">
+          <p className="mb-4 mt-4">
             This document is an electronic record in terms of the Information
             Technology Act, 2000 (as may be amended, modified, re-enacted,
             consolidated, or replaced from time to time) and rules thereunder
@@ -46,16 +45,52 @@ const TermsAndCondition = () => {
             style ‘YOURSAY’ (‘Application(s)’) (collectively, the ‘Platform’).
           </p>
           <p className="mb-4">
-          For the purpose of these Terms, wherever the context so requires,<b> ‘You’, ‘Your’, ‘Yourself’</b> and/or<b>‘User(s)’</b>  (as further defined below) shall mean any natural or legal person(s) who accesses or visits the Platform (as further defined below), uses, or avails the Game (as defined below) and the Services offered on the Platform and registers or provides any information on the Platform, irrespective of whether such person is an individual, company or other entity. Any titles or headings inserted in these Terms are for convenience only and shall not affect the interpretation of the provisions of the Terms.
+            For the purpose of these Terms, wherever the context so requires,
+            <b> ‘You’, ‘Your’, ‘Yourself’</b> and/or<b>‘User(s)’</b> (as further
+            defined below) shall mean any natural or legal person(s) who
+            accesses or visits the Platform (as further defined below), uses, or
+            avails the Game (as defined below) and the Services offered on the
+            Platform and registers or provides any information on the Platform,
+            irrespective of whether such person is an individual, company or
+            other entity. Any titles or headings inserted in these Terms are for
+            convenience only and shall not affect the interpretation of the
+            provisions of the Terms.
           </p>
           <p className="mb-4">
-          Users acknowledge and understand that YOURSAY is the sole owner of the Platform, and these Terms govern Your access and use of all features, content, and other services that YOURSAY owns, controls and makes available through YOURSAY’s online Platform and any other applications, tools, products, and services that YOURSAY may provide from time to time on the Platform (collectively termed ‘Services’, as further elaborated hereunder). By visiting or accessing the Platform, registering and creating an Account (as defined below) on the Platform, using and availing the Services available on the Platform, providing any information on the Platform, and otherwise making use of the Platform, whether implicitly or expressly, You acknowledge and accept these Terms and enter into a binding contract with YOURSAY.
+            Users acknowledge and understand that YOURSAY is the sole owner of
+            the Platform, and these Terms govern Your access and use of all
+            features, content, and other services that YOURSAY owns, controls
+            and makes available through YOURSAY’s online Platform and any other
+            applications, tools, products, and services that YOURSAY may provide
+            from time to time on the Platform (collectively termed ‘Services’,
+            as further elaborated hereunder). By visiting or accessing the
+            Platform, registering and creating an Account (as defined below) on
+            the Platform, using and availing the Services available on the
+            Platform, providing any information on the Platform, and otherwise
+            making use of the Platform, whether implicitly or expressly, You
+            acknowledge and accept these Terms and enter into a binding contract
+            with YOURSAY.
           </p>
           <p className="mb-4">
-          YOURSAY encourages and advises all Users to read and understand these Terms prior to making use of the Platform and the Services. Your use of, and access to, the Platform and Services is subject to these Terms. Any usage of the Platform or Services in any manner whatsoever shall be governed by these Terms read with the privacy policy published on the Platform (‘Privacy Policy’) or any other policy which may be published on the Platform (collectively termed ‘Policies’) which shall together make up the collective agreement between the User and the Company.
+            YOURSAY encourages and advises all Users to read and understand
+            these Terms prior to making use of the Platform and the Services.
+            Your use of, and access to, the Platform and Services is subject to
+            these Terms. Any usage of the Platform or Services in any manner
+            whatsoever shall be governed by these Terms read with the privacy
+            policy published on the Platform (‘Privacy Policy’) or any other
+            policy which may be published on the Platform (collectively termed
+            ‘Policies’) which shall together make up the collective agreement
+            between the User and the Company.
           </p>
           <p className="mb-4">
-          User(s) acknowledge and accept that User(s) shall be subject to and bound by the Policies, regardless of how the User(s), or anyone on the User’s behalf, has accessed or participated in the Game and/or the Platform. If the User does not want to be bound by the Terms, they must not retain, access and/or use the Platform or Services in any manner whatsoever. Anything done, caused to be done, whether expressly or impliedly, in contravention of these Terms, may render the User liable for legal action.
+            User(s) acknowledge and accept that User(s) shall be subject to and
+            bound by the Policies, regardless of how the User(s), or anyone on
+            the User’s behalf, has accessed or participated in the Game and/or
+            the Platform. If the User does not want to be bound by the Terms,
+            they must not retain, access and/or use the Platform or Services in
+            any manner whatsoever. Anything done, caused to be done, whether
+            expressly or impliedly, in contravention of these Terms, may render
+            the User liable for legal action.
           </p>
 
           <h2 className="text-xl font-semibold mb-4">2. DEFINITIONS</h2>
@@ -80,38 +115,114 @@ const TermsAndCondition = () => {
               YOURSAY.
             </li>
             <li className="mb-2">
-            <b>‘Game’ </b>shall mean the online skill-based opinion trading game offered to User(s) on the Platform by the Company in accordance with the Policies, which features and includes the periodic Contest(s) (as defined below). It is clarified that the Game requires User(s) to employ their intellectual effort and skill in order to determine queries and outcomes of real-world events using their knowledge and skill and the informative insights and resources made available by the Company (to support Users in their research and decision-making process). Users may participate in the Game and compete against other User(s) for the Winnings (as defined below) by placing Trades (as defined below) upon registering on the Platform in accordance with the Policies;
+              <b>‘Game’ </b>shall mean the online skill-based opinion trading
+              game offered to User(s) on the Platform by the Company in
+              accordance with the Policies, which features and includes the
+              periodic Contest(s) (as defined below). It is clarified that the
+              Game requires User(s) to employ their intellectual effort and
+              skill in order to determine queries and outcomes of real-world
+              events using their knowledge and skill and the informative
+              insights and resources made available by the Company (to support
+              Users in their research and decision-making process). Users may
+              participate in the Game and compete against other User(s) for the
+              Winnings (as defined below) by placing Trades (as defined below)
+              upon registering on the Platform in accordance with the Policies;
             </li>
             <li className="mb-2">
-              <b>‘Trade(s)’</b>  shall mean the monetary transaction(s) placed by User(s) in relation to event-based questions within the Game, reflecting their opinion on a potential outcome. It is clarified that for each event-based question, Users may purchase and select unit(s) of either ‘Yes’ or ‘No’ based on their research and opinion of the event’s outcome. Users can place their Trade(s) at any time before the match concludes, and the Trade is executed when opposing opinions from different Users (i.e., one User selects ‘Yes’ while another selects ‘No’) are matched;
-
+              <b>‘Trade(s)’</b> shall mean the monetary transaction(s) placed by
+              User(s) in relation to event-based questions within the Game,
+              reflecting their opinion on a potential outcome. It is clarified
+              that for each event-based question, Users may purchase and select
+              unit(s) of either ‘Yes’ or ‘No’ based on their research and
+              opinion of the event’s outcome. Users can place their Trade(s) at
+              any time before the match concludes, and the Trade is executed
+              when opposing opinions from different Users (i.e., one User
+              selects ‘Yes’ while another selects ‘No’) are matched;
             </li>
             <li className="mb-2">
-              <b>‘Prize Pool’</b>  shall mean the collective sum of all amounts contributed by User(s) when placing their Trade(s) as part of the Game, which are pooled together once the Trades are matched;
+              <b>‘Prize Pool’</b> shall mean the collective sum of all amounts
+              contributed by User(s) when placing their Trade(s) as part of the
+              Game, which are pooled together once the Trades are matched;
             </li>
             <li className="mb-2">
-              <b>‘Winning(s)’</b> shall mean the portion of the Prize Pool awarded to the User(s) who correctly predict the outcome of the event. The User(s) whose Trade(s) match the actual outcome of the event are declared the winner(s) and receive the corresponding amount from the Prize Pool as their Winnings, in accordance with the Terms of the Platform;
+              <b>‘Winning(s)’</b> shall mean the portion of the Prize Pool
+              awarded to the User(s) who correctly predict the outcome of the
+              event. The User(s) whose Trade(s) match the actual outcome of the
+              event are declared the winner(s) and receive the corresponding
+              amount from the Prize Pool as their Winnings, in accordance with
+              the Terms of the Platform;
             </li>
             <li className="mb-2">
-              <b>‘Contest(s)’</b>shall mean the daily contests held by the Company as part of the Game in a head-to-head format, as part of which Users answer a set of time-sensitive questions related to specific matchups. Upon successful registration, Users gain access to the Game available on the Platform, enabling them to participate in these contests.
+              <b>‘Contest(s)’</b>shall mean the daily contests held by the
+              Company as part of the Game in a head-to-head format, as part of
+              which Users answer a set of time-sensitive questions related to
+              specific matchups. Upon successful registration, Users gain access
+              to the Game available on the Platform, enabling them to
+              participate in these contests.
             </li>
             <li className="mb-2">
-              <b>‘Business Partner(s)’</b> shall mean any natural and legal person(s) with which YOURSAY has a business arrangement or collaboration under a definitive agreement, in relation to the functioning of the Platform and its Services, such as for facilitating, providing and/or delivering certain functionalities on the Platform including any features or aspects of any Services provided to User(s) on the Platform. Our Business Partners includes Our payment service partner(s) [Cashfree], Know Your Customer (KYC) and verification partner(s) [Cashfree] among other relevant third-party vendors;
+              <b>‘Business Partner(s)’</b> shall mean any natural and legal
+              person(s) with which YOURSAY has a business arrangement or
+              collaboration under a definitive agreement, in relation to the
+              functioning of the Platform and its Services, such as for
+              facilitating, providing and/or delivering certain functionalities
+              on the Platform including any features or aspects of any Services
+              provided to User(s) on the Platform. Our Business Partners
+              includes Our payment service partner(s) [Cashfree], Know Your
+              Customer (KYC) and verification partner(s) [Cashfree] among other
+              relevant third-party vendors;
             </li>
             <li className="mb-2">
-              <b>‘Minor’</b> shall mean a child or person below the age of majority in the legal jurisdiction in which he/she is based, who is not eligible to create or register an Account on the Platform and/or avails any of the Services;
+              <b>‘Minor’</b> shall mean a child or person below the age of
+              majority in the legal jurisdiction in which he/she is based, who
+              is not eligible to create or register an Account on the Platform
+              and/or avails any of the Services;
             </li>
             <li className="mb-2">
-              <b>‘Restricted Territories’</b>  shall mean and include the states of Assam, Andhra Pradesh, Nagaland, Orissa, Sikkim, Telangana, Tamil Nadu and any other relevant states or territories in India which impose prohibitions, restrictions and/or regulatory requirements (under local/state legislation) as regards provision of online gaming services to individuals located within the relevant territory;
+              <b>‘Restricted Territories’</b> shall mean and include the states
+              of Assam, Andhra Pradesh, Nagaland, Orissa, Sikkim, Telangana,
+              Tamil Nadu and any other relevant states or territories in India
+              which impose prohibitions, restrictions and/or regulatory
+              requirements (under local/state legislation) as regards provision
+              of online gaming services to individuals located within the
+              relevant territory;
             </li>
             <li className="mb-2">
-              <b>‘User(s)’,‘You’, ‘Your’, ‘Yourself’</b> shall mean an individual who is resident in India, who has signed up/registered on the Platform and/or is participating in the Game and/or is availing any of the Services provided by the Platform and/or has access to/uses the features and functionalities of the Platform and who in connection with the Platform and the Services may access or avail, share, transact, view, display, download or upload any information on the Platform. A reference to User(s) include the person(s) referred to under clause 1 above but excludes any persons who is a Minor or is resident in Restricted Territories;
+              <b>‘User(s)’,‘You’, ‘Your’, ‘Yourself’</b> shall mean an
+              individual who is resident in India, who has signed up/registered
+              on the Platform and/or is participating in the Game and/or is
+              availing any of the Services provided by the Platform and/or has
+              access to/uses the features and functionalities of the Platform
+              and who in connection with the Platform and the Services may
+              access or avail, share, transact, view, display, download or
+              upload any information on the Platform. A reference to User(s)
+              include the person(s) referred to under clause 1 above but
+              excludes any persons who is a Minor or is resident in Restricted
+              Territories;
             </li>
             <li className="mb-2">
-              <b>‘User Information’</b>  shall mean information relating to a User and the User’s Account, including the personal information and/or other data and information mentioned in Our Privacy Policy. User Information may be required to be provided by User(s) to YOURSAY at the time of registering an Account (such as under the registration form required to be filled out by the User) and/or subsequent to the time of registration (such as at the time the User avails any Services on the Platform, accesses the Game or participates in the Contest). User Information includes any User-related information for which a written request may be communicated to the User by YOURSAY at any time in relation to the User(s) use of the Platform; and
+              <b>‘User Information’</b> shall mean information relating to a
+              User and the User’s Account, including the personal information
+              and/or other data and information mentioned in Our Privacy Policy.
+              User Information may be required to be provided by User(s) to
+              YOURSAY at the time of registering an Account (such as under the
+              registration form required to be filled out by the User) and/or
+              subsequent to the time of registration (such as at the time the
+              User avails any Services on the Platform, accesses the Game or
+              participates in the Contest). User Information includes any
+              User-related information for which a written request may be
+              communicated to the User by YOURSAY at any time in relation to the
+              User(s) use of the Platform; and
             </li>
             <li className="mb-2">
-              <b>‘Services’</b> shall mean the Game (including in-game Contests) and ancillary services (including resources, tools, functionalities, and other facilities) which are made available to User(s) through the Platform by YOURSAY upon registration of an Account on the Platform by a User. These include the services elaborated hereinbelow as well as any other tools, functionalities, and services that YOURSAY may provide or make available on the Platform from time to time.
+              <b>‘Services’</b> shall mean the Game (including in-game Contests)
+              and ancillary services (including resources, tools,
+              functionalities, and other facilities) which are made available to
+              User(s) through the Platform by YOURSAY upon registration of an
+              Account on the Platform by a User. These include the services
+              elaborated hereinbelow as well as any other tools,
+              functionalities, and services that YOURSAY may provide or make
+              available on the Platform from time to time.
             </li>
           </ul>
 
@@ -214,7 +325,7 @@ const TermsAndCondition = () => {
             </li>
           </ul>
           <h2 className="text-xl font-semibold mb-4">
-           4. REGISTRATION AND USE OF SERVICES
+            4. REGISTRATION AND USE OF SERVICES
           </h2>
           <ul className="list-disc list-inside mb-6">
             <li className="mb-2">
@@ -382,41 +493,42 @@ const TermsAndCondition = () => {
               or accessing any of the Services), You represent and warrant to
               YOURSAY that You:
               <ul className="list-disc list-inside mb-6 ml-6">
-              <li className="mb-2">
-                are an Indian citizen of legal age under the Applicable Law, are
-                not a resident of a Restricted State, and have the legal right,
-                capacity, and power to accept the provisions of these Terms with
-                YOURSAY in accordance with the Applicable Law;
-              </li>
-              <li className="mb-2">
-                have read, understood, and agree at all times to abide by the
-                provisions of these Terms as well as any other Policies
-                published on the Platform which are binding and enforceable
-                against You and will revisit the Website, from time to time, to
-                review any updates and amendments to such policies, these Terms
-                and any other Policies as may be published or updated on the
-                Platform from time;{" "}
-              </li>
-              <li className="mb-2">
-                are solely and entirely responsible for any activity, including
-                any act or omission, that occurs on or through Your Account.
-                This includes the responsibility of providing correct, valid,
-                complete, accurate and up-to-date User Information at the time
-                of registering an Account and at any time required thereafter
-                and ensuring that the User Information is provided, maintained,
-                and updated regularly as and when necessary, in accordance with
-                the Terms. This further includes the responsibility to maintain
-                control over, and security of, Your Account, such as by not
-                disclosing Your User ID, not sharing Your Account, or allowing
-                anyone other than Yourself to access Your Account and avail
-                Services accessible under Your Account; and{" "}
-              </li>
-              <li className="mb-2">
-                are qualified to register an Account, access, and use the
-                Platform and Services and meet all requirements under these
-                Terms read together with the applicable Policies published on
-                the Platform (as may be updated from time to time).{" "}
-              </li>
+                <li className="mb-2">
+                  are an Indian citizen of legal age under the Applicable Law,
+                  are not a resident of a Restricted State, and have the legal
+                  right, capacity, and power to accept the provisions of these
+                  Terms with YOURSAY in accordance with the Applicable Law;
+                </li>
+                <li className="mb-2">
+                  have read, understood, and agree at all times to abide by the
+                  provisions of these Terms as well as any other Policies
+                  published on the Platform which are binding and enforceable
+                  against You and will revisit the Website, from time to time,
+                  to review any updates and amendments to such policies, these
+                  Terms and any other Policies as may be published or updated on
+                  the Platform from time;{" "}
+                </li>
+                <li className="mb-2">
+                  are solely and entirely responsible for any activity,
+                  including any act or omission, that occurs on or through Your
+                  Account. This includes the responsibility of providing
+                  correct, valid, complete, accurate and up-to-date User
+                  Information at the time of registering an Account and at any
+                  time required thereafter and ensuring that the User
+                  Information is provided, maintained, and updated regularly as
+                  and when necessary, in accordance with the Terms. This further
+                  includes the responsibility to maintain control over, and
+                  security of, Your Account, such as by not disclosing Your User
+                  ID, not sharing Your Account, or allowing anyone other than
+                  Yourself to access Your Account and avail Services accessible
+                  under Your Account; and{" "}
+                </li>
+                <li className="mb-2">
+                  are qualified to register an Account, access, and use the
+                  Platform and Services and meet all requirements under these
+                  Terms read together with the applicable Policies published on
+                  the Platform (as may be updated from time to time).{" "}
+                </li>
               </ul>
             </li>
             <li className="mb-2">
@@ -632,92 +744,364 @@ const TermsAndCondition = () => {
               consequence of the use of Platform and/or Services.{" "}
             </li>
           </ul>
-          <h2 className="text-xl font-semibold mb-4">7. SUSPENSION AND CANCELLATION OF USER ACCOUNT</h2>
+          <h2 className="text-xl font-semibold mb-4">
+            7. SUSPENSION AND CANCELLATION OF USER ACCOUNT
+          </h2>
           <ul className="list-disc list-inside mb-6">
             <li className="mb-2">
-            YOURSAY reserves the right to immediately disable or terminate or cancel Your Account, or suspend Your access to the Platform and/or Services at any time, with or without notice to You, in its sole and absolute discretion, in case of Your contravention or violation of these Terms and applicable Policies; or Your illegal acts or omissions; or misuse of the Services or Platform; or to protect You and others from identity theft or other fraudulent or illegal activity under the Applicable Law, or if YOURSAY is unable to continue providing the Services to You due to technical or legitimate business reasons. In the event, Your Account is disabled or deleted by YOURSAY due to a violation of the Terms, applicable Policies, and/or the Applicable Law, YOURSAY reserves the tight to take action against You and any other remedies it may have under the Terms, Policies and Applicable Law.
+              YOURSAY reserves the right to immediately disable or terminate or
+              cancel Your Account, or suspend Your access to the Platform and/or
+              Services at any time, with or without notice to You, in its sole
+              and absolute discretion, in case of Your contravention or
+              violation of these Terms and applicable Policies; or Your illegal
+              acts or omissions; or misuse of the Services or Platform; or to
+              protect You and others from identity theft or other fraudulent or
+              illegal activity under the Applicable Law, or if YOURSAY is unable
+              to continue providing the Services to You due to technical or
+              legitimate business reasons. In the event, Your Account is
+              disabled or deleted by YOURSAY due to a violation of the Terms,
+              applicable Policies, and/or the Applicable Law, YOURSAY reserves
+              the tight to take action against You and any other remedies it may
+              have under the Terms, Policies and Applicable Law.
             </li>
             <li className="mb-2">
-            You may opt to de-activate, cancel, or terminate Your Account and use of any Services by providing written notice of a request for Your Account’s deactivation by submitting a de-activation request form to YOURSAY in accordance with the Account de-activation process facilitated by YOURSAY on the Platform. 
+              You may opt to de-activate, cancel, or terminate Your Account and
+              use of any Services by providing written notice of a request for
+              Your Account’s deactivation by submitting a de-activation request
+              form to YOURSAY in accordance with the Account de-activation
+              process facilitated by YOURSAY on the Platform.
             </li>
             <li className="mb-2">
-            You acknowledge and accept that upon termination of Your Account for any reason, Your agreement with Us shall be terminated, and You shall no longer be entitled to access Your Account or avail Services. You agree and acknowledge that Your rights in respect of the  Services, and other benefits, associated with the Account may be irrevocably lost and agree that You will release YOURSAY of any liability of any nature in respect to the loss of the same. You further acknowledge and accept that in the event of termination of these Terms in any manner or suspension or termination of Your access to the Platform and/or the Services, or deactivation or cancellation of Your Account, You shall remain liable for all activity conducted with or in connection with Your Account and for all amounts due/charges incurred by Your Account while it was in operation at all times. The obligations and liabilities incurred by You prior to the termination, shall survive termination of Your Account and agreement with YOURSAY. 
+              You acknowledge and accept that upon termination of Your Account
+              for any reason, Your agreement with Us shall be terminated, and
+              You shall no longer be entitled to access Your Account or avail
+              Services. You agree and acknowledge that Your rights in respect of
+              the Services, and other benefits, associated with the Account may
+              be irrevocably lost and agree that You will release YOURSAY of any
+              liability of any nature in respect to the loss of the same. You
+              further acknowledge and accept that in the event of termination of
+              these Terms in any manner or suspension or termination of Your
+              access to the Platform and/or the Services, or deactivation or
+              cancellation of Your Account, You shall remain liable for all
+              activity conducted with or in connection with Your Account and for
+              all amounts due/charges incurred by Your Account while it was in
+              operation at all times. The obligations and liabilities incurred
+              by You prior to the termination, shall survive termination of Your
+              Account and agreement with YOURSAY.
             </li>
           </ul>
-          <h2 className="text-xl font-semibold mb-4">8. MARKETING AND PROMOTION</h2>
+          <h2 className="text-xl font-semibold mb-4">
+            8. MARKETING AND PROMOTION
+          </h2>
           <ul className="list-disc list-inside mb-6">
             <li className="mb-2">
-            We may send You promotional or marketing information from time to time, or information regarding any new and additional features added to the Game, Services and the Platform, updates and offers for User(s), and other information which may be of interest to You. By agreeing to these Terms and by registering an Account on the Platform, You hereby give Your consent to being sent such information by YOURSAY, such as through email or text message or otherwise. If, however, You do not wish to receive such information, You can request to opt-out of such marketing communication sent by YOURSAY by contacting Us at <b>[support@yoursay.live].</b>
+              We may send You promotional or marketing information from time to
+              time, or information regarding any new and additional features
+              added to the Game, Services and the Platform, updates and offers
+              for User(s), and other information which may be of interest to
+              You. By agreeing to these Terms and by registering an Account on
+              the Platform, You hereby give Your consent to being sent such
+              information by YOURSAY, such as through email or text message or
+              otherwise. If, however, You do not wish to receive such
+              information, You can request to opt-out of such marketing
+              communication sent by YOURSAY by contacting Us at{" "}
+              <b>[support@yoursay.live].</b>
             </li>
           </ul>
-          <h2 className="text-xl font-semibold mb-4">9. INTELLECTUAL PROPERTY</h2>
+          <h2 className="text-xl font-semibold mb-4">
+            9. INTELLECTUAL PROPERTY
+          </h2>
           <ul className="list-disc list-inside mb-6">
             <li className="mb-2">
-            Unless expressly provided or disclaimed otherwise in these Terms or any applicable Policies or under any other disclaimer published on the Platform, all material and content on the Platform including without limitation, texts, software, code, scripts, graphics, rights in get-ups, typographic typefaces, graphic user interface, photos, collages, sounds, music, audio, videos, interactive content, and the like, online databases, copyright, patents, related rights and moral rights, trademarks, trade names, product names, service marks, logos, rights in domain names, social media handles, rights in the design, rights in the information and all other or equivalent rights subsisting now or in future in any part of the world in each case, whether registered or unregistered, and all applications for the same (collectively <b>‘Intellectual Property’</b>), are owned by or licensed to YOURSAY and are provided to You on an “as is” basis for Your information and use only for the purpose of rendering Services mentioned herein. Nothing in the Terms assigns, transfers or grants You ownership in YOURSAY’s Intellectual Property and nothing in these Terms shall be deemed to confer ownership or other rights in the Intellectual Property to the User.            </li>
+              Unless expressly provided or disclaimed otherwise in these Terms
+              or any applicable Policies or under any other disclaimer published
+              on the Platform, all material and content on the Platform
+              including without limitation, texts, software, code, scripts,
+              graphics, rights in get-ups, typographic typefaces, graphic user
+              interface, photos, collages, sounds, music, audio, videos,
+              interactive content, and the like, online databases, copyright,
+              patents, related rights and moral rights, trademarks, trade names,
+              product names, service marks, logos, rights in domain names,
+              social media handles, rights in the design, rights in the
+              information and all other or equivalent rights subsisting now or
+              in future in any part of the world in each case, whether
+              registered or unregistered, and all applications for the same
+              (collectively <b>‘Intellectual Property’</b>), are owned by or
+              licensed to YOURSAY and are provided to You on an “as is” basis
+              for Your information and use only for the purpose of rendering
+              Services mentioned herein. Nothing in the Terms assigns, transfers
+              or grants You ownership in YOURSAY’s Intellectual Property and
+              nothing in these Terms shall be deemed to confer ownership or
+              other rights in the Intellectual Property to the User.{" "}
+            </li>
             <li className="mb-2">
-            You shall not use any device, program, algorithm or methodology, or any manual or digital process, to access, acquire, copy or monitor any portion of the Platform or any content, such as the Game and other Intellectual Property on the Platform to which You have no rights, or in any way reproduce or circumvent the navigational structure or presentation of the Platform or any such content, to obtain or attempt to obtain any materials, documents or information through any means not purposely made available through the Platform. You shall not directly or indirectly copy, reproduce, sell, distribute, exploit, or use all or any part of the Platform and/or Services whether electronically, mechanically, or otherwise, in any form for any purpose not expressly permitted by the provisions of these Terms, including any attempt to violate the security thereof. You shall not reverse engineer, decompile, disassemble or otherwise attempt to derive source code or other trade secrets from the Platform / Services, including any of the software comprising or in any way making up a part of the same.            </li>
+              You shall not use any device, program, algorithm or methodology,
+              or any manual or digital process, to access, acquire, copy or
+              monitor any portion of the Platform or any content, such as the
+              Game and other Intellectual Property on the Platform to which You
+              have no rights, or in any way reproduce or circumvent the
+              navigational structure or presentation of the Platform or any such
+              content, to obtain or attempt to obtain any materials, documents
+              or information through any means not purposely made available
+              through the Platform. You shall not directly or indirectly copy,
+              reproduce, sell, distribute, exploit, or use all or any part of
+              the Platform and/or Services whether electronically, mechanically,
+              or otherwise, in any form for any purpose not expressly permitted
+              by the provisions of these Terms, including any attempt to violate
+              the security thereof. You shall not reverse engineer, decompile,
+              disassemble or otherwise attempt to derive source code or other
+              trade secrets from the Platform / Services, including any of the
+              software comprising or in any way making up a part of the same.{" "}
+            </li>
             <li className="mb-2">
-            All rights and interest in Intellectual Property comprised in the Game and the Platform and Services are and will remain the exclusive property of YOURSAY and its licensors (as may be applicable). You acknowledge and agree that all worldwide rights, title, and interest in any third-party software, products, and/or services (and any Intellectual Property Rights therein) which are accessible on the Platform or through the Services, subject to third party licenses, if any, are owned by such third parties. Any copying or reproduction of these materials for commercial purposes without Our consent is prohibited. Any use for which You receive any remuneration, whether monetarily or otherwise, is construed as commercial use for the purpose of this clause and YOURSAY shall hold You accountable for the infringement of intellectual property rights under Applicable Law.            </li>
-            
+              All rights and interest in Intellectual Property comprised in the
+              Game and the Platform and Services are and will remain the
+              exclusive property of YOURSAY and its licensors (as may be
+              applicable). You acknowledge and agree that all worldwide rights,
+              title, and interest in any third-party software, products, and/or
+              services (and any Intellectual Property Rights therein) which are
+              accessible on the Platform or through the Services, subject to
+              third party licenses, if any, are owned by such third parties. Any
+              copying or reproduction of these materials for commercial purposes
+              without Our consent is prohibited. Any use for which You receive
+              any remuneration, whether monetarily or otherwise, is construed as
+              commercial use for the purpose of this clause and YOURSAY shall
+              hold You accountable for the infringement of intellectual property
+              rights under Applicable Law.{" "}
+            </li>
           </ul>
           <h2 className="text-xl font-semibold mb-4">10. INDEMNIFICATION</h2>
           <ul className="list-disc list-inside mb-6">
             <li className="mb-2">
-            To the extent permitted by the Applicable Law, YOURSAY shall not be liable to You for any manner of damages or losses to You, and in relation, to any person(s) or property (including special, incidental, indirect, punitive, or consequential damages or losses) including, but not limited to, lost profits or data, whether based in contract, negligence, tort, Applicable Law, arising directly or indirectly in relation to the Terms, Policies, the Platform, Game and Services (and any related activities, omissions, interruptions, deletions or defects in the same including any action in connection with an investigation by YOURSAY or law enforcement authorities in relation to the use of the Platform and/or Services) in accordance with these Terms, even if advised of the possibility of such damages. In no event shall YOURSAY be held liable for damages, loss, or cause of action that exceeds the total value of the monetary amount paid by You to YOURSAY for access and use of the Game offered on the Platform. 
-            </li>           
+              To the extent permitted by the Applicable Law, YOURSAY shall not
+              be liable to You for any manner of damages or losses to You, and
+              in relation, to any person(s) or property (including special,
+              incidental, indirect, punitive, or consequential damages or
+              losses) including, but not limited to, lost profits or data,
+              whether based in contract, negligence, tort, Applicable Law,
+              arising directly or indirectly in relation to the Terms, Policies,
+              the Platform, Game and Services (and any related activities,
+              omissions, interruptions, deletions or defects in the same
+              including any action in connection with an investigation by
+              YOURSAY or law enforcement authorities in relation to the use of
+              the Platform and/or Services) in accordance with these Terms, even
+              if advised of the possibility of such damages. In no event shall
+              YOURSAY be held liable for damages, loss, or cause of action that
+              exceeds the total value of the monetary amount paid by You to
+              YOURSAY for access and use of the Game offered on the Platform.
+            </li>
             <li className="mb-2">
-            You agree to indemnify, defend and hold harmless YOURSAY from and against any claims (including any claims based on publicity rights, defamation, or invasion of privacy), proceeding, loss, damage, liability, cost, demand or expense (including but not limited to attorney's fees) of any kind arising out of: (i) Your access to or use of the Platform and Services; (ii) any breach by You of Your obligations, representations, and/or warranties outlined in these Terms, Policies (iii) Your violation of the rights of any third party, including any infringement of intellectual property, or of any privacy or consumer protection right; (iv) any violation of law or contractual obligation and any claims, demands, notices pursuant to such violation; (v) Your negligence or willful misconduct or any of Your actions and omissions including Your use or attempted use of the Platform and its Services, or failure to take appropriate action where relevant while using the Services and Platform. It is clarified that Your obligation to indemnify YOURSAY will survive termination of the Terms, Policies and Your Account for any reason, in the manner mentioned in these Terms.             </li>           
+              You agree to indemnify, defend and hold harmless YOURSAY from and
+              against any claims (including any claims based on publicity
+              rights, defamation, or invasion of privacy), proceeding, loss,
+              damage, liability, cost, demand or expense (including but not
+              limited to attorney's fees) of any kind arising out of: (i) Your
+              access to or use of the Platform and Services; (ii) any breach by
+              You of Your obligations, representations, and/or warranties
+              outlined in these Terms, Policies (iii) Your violation of the
+              rights of any third party, including any infringement of
+              intellectual property, or of any privacy or consumer protection
+              right; (iv) any violation of law or contractual obligation and any
+              claims, demands, notices pursuant to such violation; (v) Your
+              negligence or willful misconduct or any of Your actions and
+              omissions including Your use or attempted use of the Platform and
+              its Services, or failure to take appropriate action where relevant
+              while using the Services and Platform. It is clarified that Your
+              obligation to indemnify YOURSAY will survive termination of the
+              Terms, Policies and Your Account for any reason, in the manner
+              mentioned in these Terms.{" "}
+            </li>
             <li className="mb-2">
-            You hereby agree and acknowledge that YOURSAY shall not be responsible for any actions taken by any third party using the Platform including but not limited to, actions, omissions, or conduct of such third-parties (including the Business Partners and other Users), online or offline. You acknowledge and agree that any disputes, complaints or grievances regarding the actions and omissions of such third-parties and/or any other aspect of any transaction or other commercial dealings between You and such third party will be solely and entirely between You and the relevant third-party.                  </li>
+              You hereby agree and acknowledge that YOURSAY shall not be
+              responsible for any actions taken by any third party using the
+              Platform including but not limited to, actions, omissions, or
+              conduct of such third-parties (including the Business Partners and
+              other Users), online or offline. You acknowledge and agree that
+              any disputes, complaints or grievances regarding the actions and
+              omissions of such third-parties and/or any other aspect of any
+              transaction or other commercial dealings between You and such
+              third party will be solely and entirely between You and the
+              relevant third-party.{" "}
+            </li>
           </ul>
           <h2 className="text-xl font-semibold mb-4">11. DISPUTE RESOLUTION</h2>
           <ul className="list-disc list-inside mb-6">
             <li className="mb-2">
-            The courts of competent jurisdiction at [ Delhi, India] (‘Court(s)’) shall have exclusive jurisdiction to determine any and all matter(s), claim(s) or dispute(s), whether contractual or non-contractual arising out of, or in connection with, the Terms, Policies, the Platform, Game and Services provided by Us (‘Dispute(s)’). All Disputes shall be governed and construed by the Courts in accordance with the Applicable Law and any order, decree, direction, or award of the Courts shall be final and binding in relation to any Dispute concerning YOURSAY. Any dispute that may arise between You and any third party arising from Your use of the Game and Services shall be only between You and the third party and You release YOURSAY and YOURSAY Entities from any such claims and damages connected with such disputes. Nothing contained in these terms shall prevent YOURSAY from seeking and obtaining interim or permanent equitable or injunctive relief, or any other relief available to safeguard Our interest prior to, during or following the filing of any proceedings. The pursuit of equitable or injunctive relief shall not constitute a waiver on Our part to pursue any remedy for monetary damages. You consent to the exclusive jurisdiction of the Courts and waive any objection as to inconvenient forum.            </li>           
-                    
+              The courts of competent jurisdiction at [ Delhi, India]
+              (‘Court(s)’) shall have exclusive jurisdiction to determine any
+              and all matter(s), claim(s) or dispute(s), whether contractual or
+              non-contractual arising out of, or in connection with, the Terms,
+              Policies, the Platform, Game and Services provided by Us
+              (‘Dispute(s)’). All Disputes shall be governed and construed by
+              the Courts in accordance with the Applicable Law and any order,
+              decree, direction, or award of the Courts shall be final and
+              binding in relation to any Dispute concerning YOURSAY. Any dispute
+              that may arise between You and any third party arising from Your
+              use of the Game and Services shall be only between You and the
+              third party and You release YOURSAY and YOURSAY Entities from any
+              such claims and damages connected with such disputes. Nothing
+              contained in these terms shall prevent YOURSAY from seeking and
+              obtaining interim or permanent equitable or injunctive relief, or
+              any other relief available to safeguard Our interest prior to,
+              during or following the filing of any proceedings. The pursuit of
+              equitable or injunctive relief shall not constitute a waiver on
+              Our part to pursue any remedy for monetary damages. You consent to
+              the exclusive jurisdiction of the Courts and waive any objection
+              as to inconvenient forum.{" "}
+            </li>
           </ul>
           <h2 className="text-xl font-semibold mb-4">12. GENERAL</h2>
           <ul className="list-disc list-inside mb-6">
             <li className="mb-2">
-            The Terms read along with applicable Policies (including the Privacy Policy) constitute the entire agreement between You and YOURSAY in respect of the subject matter herein and supersedes all previous written or oral representations, agreements, and understandings between You and YOURSAY, whether expressed or implied, with respect to such subject matter.   
-                </li>        
+              The Terms read along with applicable Policies (including the
+              Privacy Policy) constitute the entire agreement between You and
+              YOURSAY in respect of the subject matter herein and supersedes all
+              previous written or oral representations, agreements, and
+              understandings between You and YOURSAY, whether expressed or
+              implied, with respect to such subject matter.
+            </li>
             <li className="mb-2">
-            Each of the provisions of the Terms is severable. If any provision of the Policies (or part of a provision) is found by a governmental authority or court to be invalid, unenforceable, or illegal, that provision will be enforced to the maximum extent permissible under by the Applicable Law and the other provisions of the Terms will remain in full force and effect. If any invalid, unenforceable or illegal provision would be valid, enforceable, or legal if some part of it were deleted or modified, the provision will apply with whatever modification is necessary to give effect to the intention of provisions in these Terms.            </li> 
+              Each of the provisions of the Terms is severable. If any provision
+              of the Policies (or part of a provision) is found by a
+              governmental authority or court to be invalid, unenforceable, or
+              illegal, that provision will be enforced to the maximum extent
+              permissible under by the Applicable Law and the other provisions
+              of the Terms will remain in full force and effect. If any invalid,
+              unenforceable or illegal provision would be valid, enforceable, or
+              legal if some part of it were deleted or modified, the provision
+              will apply with whatever modification is necessary to give effect
+              to the intention of provisions in these Terms.{" "}
+            </li>
             <li className="mb-2">
-            You shall not, without the prior written consent of YOURSAY, assign the provisions of these Terms, in whole or part, either voluntarily or by operation of Applicable Law, and any attempt to do so will be a material default of these Terms and such assignment will be void. YOURSAY may assign the provisions of these Terms in part or in their entirety, including Our rights, interests, and obligations hereunder, without notice to You or Your consent. The provisions of these Terms are solely for the benefit of You and YOURSAY, YOURSAYs successors and permitted assigns, and does not confer any rights or remedies on any other person or entity.                </li> 
+              You shall not, without the prior written consent of YOURSAY,
+              assign the provisions of these Terms, in whole or part, either
+              voluntarily or by operation of Applicable Law, and any attempt to
+              do so will be a material default of these Terms and such
+              assignment will be void. YOURSAY may assign the provisions of
+              these Terms in part or in their entirety, including Our rights,
+              interests, and obligations hereunder, without notice to You or
+              Your consent. The provisions of these Terms are solely for the
+              benefit of You and YOURSAY, YOURSAYs successors and permitted
+              assigns, and does not confer any rights or remedies on any other
+              person or entity.{" "}
+            </li>
             <li className="mb-2">
-            No failure or delay by YOURSAY in exercising any right, power or remedy under these Terms shall operate as a waiver thereof, nor shall any single or partial exercise of the same preclude any further exercise thereof or the exercise of any other right, power or remedy. Without limiting the foregoing, no waiver by YOURSAY of any breach of any provision of the Policies shall be deemed to be a waiver of any subsequent breach of that or any other provision of the Terms. If We fail to enforce any aspect of these Terms, including reporting any illegal or impermissible actions to appropriate law enforcement authorities or blocking or suspending Your Account, such failure to enforce Our rights will not be a waiver by Us.                 </li> 
+              No failure or delay by YOURSAY in exercising any right, power or
+              remedy under these Terms shall operate as a waiver thereof, nor
+              shall any single or partial exercise of the same preclude any
+              further exercise thereof or the exercise of any other right, power
+              or remedy. Without limiting the foregoing, no waiver by YOURSAY of
+              any breach of any provision of the Policies shall be deemed to be
+              a waiver of any subsequent breach of that or any other provision
+              of the Terms. If We fail to enforce any aspect of these Terms,
+              including reporting any illegal or impermissible actions to
+              appropriate law enforcement authorities or blocking or suspending
+              Your Account, such failure to enforce Our rights will not be a
+              waiver by Us.{" "}
+            </li>
             <li className="mb-2">
-            YOURSAY shall not be liable for damages for any delay or failure to perform its obligations hereunder, if such delay or failure is due to causes which are unforeseen or beyond its control, including, without limitation, internet attacks, emergencies, internet unavailability, any law, proclamation, regulation, ordinance, or other act or order of any court, government or governmental agency, acts or omissions of carriers, transmitters, providers, or acts of vandals or hackers, etc.  The time for performance of such obligations of YOURSAY will be extended for the period of the delay or failure to perform due to such occurrence. YOURSAY shall use reasonable endeavors to overcome the effects of any such causes and to ensure resumption of normal performance of obligations as soon as reasonably practicable, however, it is clarified that YOURSAY is not responsible for losses that were not foreseeable to You and YOURSAY when these Terms were entered into.               </li> 
+              YOURSAY shall not be liable for damages for any delay or failure
+              to perform its obligations hereunder, if such delay or failure is
+              due to causes which are unforeseen or beyond its control,
+              including, without limitation, internet attacks, emergencies,
+              internet unavailability, any law, proclamation, regulation,
+              ordinance, or other act or order of any court, government or
+              governmental agency, acts or omissions of carriers, transmitters,
+              providers, or acts of vandals or hackers, etc. The time for
+              performance of such obligations of YOURSAY will be extended for
+              the period of the delay or failure to perform due to such
+              occurrence. YOURSAY shall use reasonable endeavors to overcome the
+              effects of any such causes and to ensure resumption of normal
+              performance of obligations as soon as reasonably practicable,
+              however, it is clarified that YOURSAY is not responsible for
+              losses that were not foreseeable to You and YOURSAY when these
+              Terms were entered into.{" "}
+            </li>
             <li className="mb-2">
-            Any provisions in the Terms or Policies which are expressly referred to as surviving or intended to survive by their nature will survive the termination of Your Account and relationship with YOURSAY for any reason.                   </li> 
+              Any provisions in the Terms or Policies which are expressly
+              referred to as surviving or intended to survive by their nature
+              will survive the termination of Your Account and relationship with
+              YOURSAY for any reason.{" "}
+            </li>
             <li className="mb-2">
-            You shall be responsible for payment of all fees/costs/charges associated with availing of Services from Us. You agree and acknowledge You responsibility to bear all applicable taxes duties, cess, etc. per the Applicable Laws. You agree to provide such further information, documents or instruments, and take such further actions, reasonably requested by YOURSAY, to effect the purposes of these Terms and carry out its provisions.                 </li>  
-                    
+              You shall be responsible for payment of all fees/costs/charges
+              associated with availing of Services from Us. You agree and
+              acknowledge You responsibility to bear all applicable taxes
+              duties, cess, etc. per the Applicable Laws. You agree to provide
+              such further information, documents or instruments, and take such
+              further actions, reasonably requested by YOURSAY, to effect the
+              purposes of these Terms and carry out its provisions.{" "}
+            </li>
           </ul>
-          <h2 className="text-xl font-semibold mb-4">13. GRIEVANCE REDRESSAL</h2>
+          <h2 className="text-xl font-semibold mb-4">
+            13. GRIEVANCE REDRESSAL
+          </h2>
           <ul className="list-disc list-inside mb-6">
             <li className="mb-2">
-            Any User or aggrieved person (including persons acting on their behalf) can address any Grievance (as defined herein above) to our designated resident grievance officer, the name and contact details of whom are published hereinbelow <b>(‘Resident Grievance Officer’): </b>       <br/>  
-            <b>Name:</b>[Anshu Amulani] <br/>
-<b>E-mail Address:</b> [anshu@yoursay.live]       </li>        
+              Any User or aggrieved person (including persons acting on their
+              behalf) can address any Grievance (as defined herein above) to our
+              designated resident grievance officer, the name and contact
+              details of whom are published hereinbelow{" "}
+              <b>(‘Resident Grievance Officer’): </b> <br />
+              <b>Name:</b>[Anshu Amulani] <br />
+              <b>E-mail Address:</b> [anshu@yoursay.live]{" "}
+            </li>
             <li className="mb-2">
-            Our Resident Grievance Officer is the nodal contact to receive and acknowledge all complaints as well as receive and acknowledge any order, notice or direction of a court, the government, or its agency subject to the Rules. You will receive an acknowledgement e-mail within 24 (twenty-four) hours upon receipt of Your Grievance by Our Grievance Officer. Our Grievance Officer shall dispose of such complaint within a period of 15 (fifteen) days from the date of its receipt, provided that the Grievance Officer may request the complainant to furnish additional information for evidentiary and investigative purposes during this time. However, We shall enable the complainant to track the status of a Grievance by allocating a unique ticket number to every Grievance received by Us and providing this to the complainant. </li>
+              Our Resident Grievance Officer is the nodal contact to receive and
+              acknowledge all complaints as well as receive and acknowledge any
+              order, notice or direction of a court, the government, or its
+              agency subject to the Rules. You will receive an acknowledgement
+              e-mail within 24 (twenty-four) hours upon receipt of Your
+              Grievance by Our Grievance Officer. Our Grievance Officer shall
+              dispose of such complaint within a period of 15 (fifteen) days
+              from the date of its receipt, provided that the Grievance Officer
+              may request the complainant to furnish additional information for
+              evidentiary and investigative purposes during this time. However,
+              We shall enable the complainant to track the status of a Grievance
+              by allocating a unique ticket number to every Grievance received
+              by Us and providing this to the complainant.{" "}
+            </li>
             <li className="mb-2">
-            Relevant communication in connection with Our compliance with the Information Technology, 2000 and the Rules made thereunder may be addressed to Our designated chief compliance officer, the name and contact details of whom are published hereinbelow <b>(‘Chief Compliance Officer’): </b>       <br/>  
-            <b>Name:</b>[Anshu Amulani] <br/>
-<b>E-mail Address:</b> [anshu@yoursay.live]         </li> 
+              Relevant communication in connection with Our compliance with the
+              Information Technology, 2000 and the Rules made thereunder may be
+              addressed to Our designated chief compliance officer, the name and
+              contact details of whom are published hereinbelow{" "}
+              <b>(‘Chief Compliance Officer’): </b> <br />
+              <b>Name:</b>[Anshu Amulani] <br />
+              <b>E-mail Address:</b> [anshu@yoursay.live]{" "}
+            </li>
             <li className="mb-2">
-            Our Nodal Contact Person (as defined hereinafter) handles coordination with law enforcement agencies and officers and compliance with orders or requisitions made per Applicable Law.  Relevant communication may be addressed to Our designated nodal contact person, the name and contact details of whom are published hereinbelow <b>(‘Nodal Contact Person’): </b> 
-            <br/>  
-            <b>Name:</b>[Arjun Munjal] <br/>
-<b>E-mail Address:</b> [arjun@yoursay.live]                 </li> 
+              Our Nodal Contact Person (as defined hereinafter) handles
+              coordination with law enforcement agencies and officers and
+              compliance with orders or requisitions made per Applicable Law.
+              Relevant communication may be addressed to Our designated nodal
+              contact person, the name and contact details of whom are published
+              hereinbelow <b>(‘Nodal Contact Person’): </b>
+              <br />
+              <b>Name:</b>[Arjun Munjal] <br />
+              <b>E-mail Address:</b> [arjun@yoursay.live]{" "}
+            </li>
             <li className="mb-2">
-            You can also address any communication in writing to us at our office located at the following address:<b>[1-E/3, First Floor, Block E 1, Jhandewalan Extension, Jhandewalan, New Delhi, Delhi 110055]   </b>                       </li> 
+              You can also address any communication in writing to us at our
+              office located at the following address:
+              <b>
+                [1-E/3, First Floor, Block E 1, Jhandewalan Extension,
+                Jhandewalan, New Delhi, Delhi 110055]{" "}
+              </b>{" "}
+            </li>
             <li className="mb-2">
-            Any Feedback and/or Grievance shall be deemed to be non-compensatory in nature. The Company reserves the right, at its sole discretion, to use such information in any manner as may be deemed appropriate by the Company and such use shall be entirely unrestricted. You represent and warrant that while sharing any Feedback or Grievance for the Platforms, You shall not use any offensive, libelous, derogatory, hateful or racially or ethnically objectionable language in respect of such Feedback and/or Grievance and that any Feedback/Grievance will be shared by You in accordance with these Terms and the Applicable Law.                       </li> 
+              Any Feedback and/or Grievance shall be deemed to be
+              non-compensatory in nature. The Company reserves the right, at its
+              sole discretion, to use such information in any manner as may be
+              deemed appropriate by the Company and such use shall be entirely
+              unrestricted. You represent and warrant that while sharing any
+              Feedback or Grievance for the Platforms, You shall not use any
+              offensive, libelous, derogatory, hateful or racially or ethnically
+              objectionable language in respect of such Feedback and/or
+              Grievance and that any Feedback/Grievance will be shared by You in
+              accordance with these Terms and the Applicable Law.{" "}
+            </li>
           </ul>
-
         </div>
       </div>
     </div>

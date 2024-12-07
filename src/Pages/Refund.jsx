@@ -7,10 +7,7 @@ const Refund = () => {
       <h1 className="text-3xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-blue-700 text-white p-6 rounded-t-lg">
         Cancellation & Refund Policy
       </h1>
-      <div className='p-8'>
-      <p className="text-sm text-gray-500 mb-4">
-        Last Updated on: 18-11-2024 14:04:09
-      </p>
+      <div className='p-8 pt-2'>
 
       <p className="mb-4 text-gray-700">
         <strong>ASAR GAMING NETWORK PRIVATE LIMITED</strong> believes in helping its customers as far as possible,
