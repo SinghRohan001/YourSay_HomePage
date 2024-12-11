@@ -48,9 +48,12 @@ function Footer() {
           <div>
             <h3 className="text-lg font-[600] mb-2">Company</h3>
             <ul className="space-y-2 font-worksans font-[400]">
-              <li>About Us</li>
+              {/* <li>About Us</li> */}
+              <Link to="/privacy-policy" className="hover:text-blue-700">
+                <li>Privacy policy</li>
+              </Link>
               <Link to="/terms-condition" className="hover:text-blue-700">
-                <li>Terms and Condition</li>
+                <li>Terms and Conditions</li>
               </Link>
             </ul>
           </div>
@@ -67,9 +70,7 @@ function Footer() {
             <h3 className="text-lg font-[600] mb-2">Careers</h3>
             <ul className="space-y-2 font-worksans font-[400]">
               <li>Open Roles</li>
-              <Link to="/privacy-policy" className="hover:text-blue-700">
-                <li>Privacy policy</li>
-              </Link>
+              
             </ul>
           </div>
           <div>
@@ -89,23 +90,23 @@ function Footer() {
         {/* About Section */}
         <div className="border-t flex flex-wrap justify-between w-full border-[#ACA7FF] mt-8 pt-4">
           <div className="lg:w-[54vw] ">
-            <h3 className="text-lg font-[600] mb-2 font-worksans">
-              About yourSay
+            <h3 className="text-lg  mb-2 font-semibold font-montserrat">
+              About YourSay
             </h3>
             <p className="text-black font-[400] font-montserrat text-md  ">
               YourSay is a next-generation platform built on the idea that
               opinions matter. We empower users by turning their insights into
-              real rewards. Whether you're interested in opinion trading,
-              sports, or market events, YourSay provides a seamless and secure
+              real rewards. Whether you're interested in opinion trading, sports
+              or market events. YourSay provides a seamless and secure
               environment for all users. Our team is committed to innovation,
               transparency, and providing the best possible experience.
             </p>
           </div>
-          <div className=" flex flex-col lg:w-[25vw] ">
-            <h3 className="text-lg font-[600] mb-6 font-worksans ">
+          <div className=" flex flex-col xl:w-[25vw] ">
+            <h3 className="text-lg font-[600] mb-6 font-montserrat ">
               Partners and sponsors
             </h3>
-            <div className="flex space-x-4 lg:space-x-8">
+            <div className="flex space-x-4 xl:space-x-8 lg:space-x-4">
               {/* Placeholder for icons */}
               <img src={image1} />
               <img src={image2} />
@@ -125,7 +126,7 @@ function Footer() {
                   Disclaimer
                 </h3>
               </div>
-              <div className="hidden lg:block w-[40vw] h-[100%] ">
+              <div className="hidden lg:block xl:w-[40vw] h-[100%] ">
                 <div className="flex justify-between">
                   {/* Placeholder for social media icons */}
                   <div className="flex items-center space-x-2">
@@ -148,17 +149,17 @@ function Footer() {
               </div>
             </div>
 
-            <ul className="text-[#262626] space-y-2 w-full mb-2 font-montserrat">
+            <ul className="text-[#262626] space-y-2 w-full mb-2  font-montserrat">
               <li>
-                • Opinion trading may involve financial risks. Please trade
+                Opinion trading may involve financial risks. Please trade
                 responsibly.
               </li>
               <li>
-                • YourSay is available in states where permitted by law. Users
-                in certain states may not have access to our app or its
-                features.
+                YourSay is available in states where permitted by law. Users in
+                certain states may not have access to our app or its features.
               </li>
             </ul>
+
             <div className=" block md:block mt-2 lg:hidden ">
               <div className="lg:flex lg:space-x-16 md:flex md:space-x-4 lg:justify-between ">
                 {/* Placeholder for social media icons */}

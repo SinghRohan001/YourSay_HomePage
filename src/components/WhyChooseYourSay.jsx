@@ -16,11 +16,14 @@ const WhyChooseYourSay = () => {
     >
       <div className="lg:mx-10 px-4 ">
         <div className="flex justify-between items-center lg:pt-4 md:pt-2 pt-1  ">
-          <h2 className="lg:text-[64px] md:text-[35px] text-lg font-[600] text-[#101010] md:mb-8 lg:mb-8 mb-4 font-montserrat ">
+          <h2 className="xl:text-[64px] lg:text-[50px] md:text-[35px] text-lg font-[600] text-[#101010] md:mb-8 lg:mb-8 mb-4 font-montserrat ">
             Why Choose YourSay
           </h2>
           <div className="flex justify-end items-center md:mb-8 lg:mb-8 mb-4">
-            <button className="bg-[#2E67F4] lg:h-[52px] hover:bg-blue-700 lg:w-full md:h-[52px] md:w-full lg:text-[16px] md:text-[16px] text-[10px] font-[700] font-montserrat focus-within:ring-2 focus-within:ring-blue-800 text-white md:px-6 lg:py-0 md:py-0 lg:px-6 px-2 py-2 rounded-lg">
+            <button className="bg-[#2E67F4] lg:h-[52px] hover:bg-blue-700 lg:w-full md:h-[52px] md:w-full lg:text-[16px] md:text-[16px] text-[10px] font-[700] font-montserrat focus-within:ring-2 focus-within:ring-blue-800 text-white md:px-6 lg:py-0 md:py-0 lg:px-6 px-2 py-2 rounded-lg"
+            onClick={() =>
+                  window.open("https://trading.yoursay.live/", "_blank")
+                }>
               Start investing for FREE
             </button>
           </div>

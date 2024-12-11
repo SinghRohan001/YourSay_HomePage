@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useRef } from "react";
 import currenct from "../assets/currency.webp.svg";
 import sbg from "../assets/SGBs.webp.svg";
 import fno from "../assets/F&O.webp.svg";
 import stock from "../assets/stock.svg";
 import comodity from "../assets/comodities.svg";
 import mf from "../assets/MF.svg";
+import arrow from "../assets/arrow1.svg";
+import arrow1 from "../assets/arrow2.svg";
+
 
 const cardData = [
   {
@@ -52,10 +55,38 @@ const cardData = [
 ];
 
 const Card = () => {
+  const scrollRef = useRef(null);
+
+  const scrollLeft = () => {
+    scrollRef.current.scrollBy({ left: -300, behavior: "smooth" });
+  };
+
+  const scrollRight = () => {
+    scrollRef.current.scrollBy({ left: 300, behavior: "smooth" });
+  };
+
   return (
-    <div className="w-full flex flex-col justify-center">
-      {/* Container for the cards with horizontal scroll enabled */}
-      <div className="w-full flex overflow-x-scroll hide-scrollbar">
+    <div className="w-full flex flex-col justify-center relative">
+      {/* Left Arrow */}
+      <div
+        className="absolute w-[70px] h-full"
+        style={{
+          background: "linear-gradient(90deg, #979797 0%, #E3E3E3 10%)",
+        }}
+      >
+        <button
+          className="absolute left-3 top-1/2 transform bg-white -translate-y-1/2  shadow-lg rounded-full p-2 z-10"
+          onClick={scrollLeft}
+        >
+          <img src={arrow} className="" />
+        </button>
+      </div>
+
+      {/* Card Container */}
+      <div
+        ref={scrollRef}
+        className="w-full flex overflow-x-scroll lg:pl-10 lg:pr-14 pl-14 pr-14 hide-scrollbar scroll-smooth"
+      >
         {cardData.map((card, index) => (
           <div
             key={index}
@@ -77,6 +108,21 @@ const Card = () => {
             </div>
           </div>
         ))}
+      </div>
+
+      {/* Right Arrow */}
+      <div
+        className="absolute right-0 w-[70px] h-full"
+        style={{
+          background: "linear-gradient(to left, #979797 0%, #E3E3E3 -10)",
+        }}
+      >
+      <button
+        className="absolute right-3 top-1/2 transform -translate-y-1/2 bg-white shadow-lg rounded-full p-2 z-10"
+        onClick={scrollRight}
+      >
+        <img src={arrow1} className=""/>
+      </button>
       </div>
     </div>
   );

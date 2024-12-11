@@ -13,51 +13,52 @@ const HomePage = () => {
   return (
     <div className="w-full">
       <Navbar />
-      <div className="lg:mb-14 w-full md:mb-52">
+      <div className="xl:mb-[450px] lg:mb-[280px] w-full md:mb-52">
         <div className="relative">
           <div className="flex justify-center items-center">
-            <div className="absolute lg:mt-20 mt-32 animate-[rotateAlternating_25s_linear_infinite] z-0 hidden md:block lg:block">
+            {/* Rotating background images */}
+            <div className="absolute xl:mt-20 lg:mt-10 mt-32 animate-[rotateAlternating_25s_linear_infinite] z-0 hidden md:block lg:block">
               <img
                 src={rotate1}
                 alt="Rotating background 3"
-                className="lg:max-w-[1400px] md:max-w-[764px]"
+                className="lg:max-w-[1050px] xl:max-w-[1400px] md:max-w-[764px]"
               />
             </div>
-
-            <div className="absolute lg:mt-32 mt-40 animate-[rotateAlternating2_25s_linear_infinite] z-0 hidden md:block lg:block">
+            <div className="absolute xl:mt-32 lg:mt-8 mt-40 animate-[rotateAlternating2_25s_linear_infinite] z-0 hidden md:block lg:block">
               <img
                 src={rotate3}
                 alt="Rotating background 2"
-                className="lg:max-w-[1120px] md:max-w-[620px]"
+                className="lg:max-w-[890px] xl:max-w-[1120px] md:max-w-[620px]"
               />
             </div>
-
-            <div className="absolute mt-52 animate-[rotateAlternating_25s_linear_infinite] z-0 hidden md:block lg:block">
+            <div className="absolute xl:mt-52 lg:mt-16 mt-52 animate-[rotateAlternating_25s_linear_infinite] z-0 hidden md:block lg:block">
               <img
                 src={rotate2}
                 alt="Rotating background 1"
-                className="lg:max-w-[810px] md:max-w-[460px]"
+                className="lg:max-w-[700px] xl:max-w-[810px] md:max-w-[460px]"
               />
             </div>
           </div>
         </div>
 
-        <div className="flex relative justify-center w-full items-start lg:h-screen mb-6">
-          <div className="w-[100%] lg:w-[35%] md:w-[50%] mt-16  lg:mt-28 md:mt-20 flex flex-col justify-center">
-            <h1 className="lg:text-5xl  md:text-lg w-full text-3xl lg:mt-0 md:mt-0  text-center font-montserrat font-[700] tracking-wider">
+        <div className="flex relative justify-center w-full items-start  mb-6">
+          <div className="w-[100%] lg:w-[50%] xl:w-[35%] md:w-[50%] mt-16 lg:mt-24 xl:mt-28 md:mt-20 flex flex-col justify-center">
+            <h1 className="lg:text-3xl xl:text-5xl md:text-lg w-full text-3xl lg:mt-0 md:mt-0 text-center font-montserrat font-[700] tracking-wider">
               Turn Your Opinions into Real Rewards!
             </h1>
-            <p className="text-center text-gray-500 lg:mt-6 md:mt-2 mt-4 lg:text-[14px] md:text-[8px] text-sm lg:px-10 md:px-16 px-2 font-montserrat font-[400]">
+            <p className="text-center text-gray-500 lg:mt-4 xl:mt-6 md:mt-2 mt-4 lg:text-[12px] xl:text-[14px] md:text-[8px] text-sm lg:px-16 xl:px-10 md:px-16 px-2 font-montserrat font-[400]">
               Welcome to YourSay, the platform where your opinions take center
               stage. Here, every 'yes' or 'no' is more than just a choice—it's
               an opportunity to win real rewards. Engage in exciting opinion
               trades and watch your insights pay off.
             </p>
-            <div className="lg:mt-6 md:mt-3 mt-4 flex justify-center">
+            <div className="lg:mt-4 xl:mt-6 md:mt-3 mt-4 flex justify-center">
               <button
                 type="button"
-                className="text-white font-[500] font-montserrat bg-blue-600 hover:bg-blue-700 focus-within:ring-4 focus-within:ring-blue-800 border-blue-700 border-[1px] rounded-lg lg:text-lg md:text-md text-sm px-3 py-2 me-2 mb-2 cursor-pointer"
-                onClick={() => window.open("https://trading.yoursay.live/", "_blank")}
+                className="text-white font-[500] font-montserrat bg-blue-600 hover:bg-blue-700 focus-within:ring-4 focus-within:ring-blue-800 border-blue-700 border-[1px] rounded-lg lg:text-md xl:text-lg md:text-md text-sm px-3 py-2 me-2 mb-2 cursor-pointer"
+                onClick={() =>
+                  window.open("https://trading.yoursay.live/", "_blank")
+                }
               >
                 Trade Now
               </button>

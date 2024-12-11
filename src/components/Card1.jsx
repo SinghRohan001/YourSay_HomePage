@@ -23,19 +23,18 @@ const Card1 = () => {
               </p>
             </div>
             <div className="w-full flex justify-center mb-4">
-              <div className="rounded-l-full rounded-r-full px-6 py-3 mx-2 bg-white hover:bg-gray-200 focus-within:ring-4 focus-within:ring-blue-300">
-                <button
-                  type="button"
-                  className="font-[400] text-center font-montserrat text-black  focus:ring-blue-300 rounded-lg lg:text-xl md:text-lg text-sm focus:outline-none"
+              <div className="rounded-l-full rounded-r-full px-6 py-3 mx-2 bg-white">
+                <div
+                  className="font-[400] text-center font-montserrat text-black rounded-lg lg:text-xl md:text-lg text-sm focus:outline-none"
                 >
                   Trade Opinion on YourSay and win big!
-                </button>
+                </div>
               </div>
             </div>
 
             <div className="w-full flex justify-center">
               <div className="lg:w-[65%] md:w-[70%] w-full p-4">
-                <p className="text-center text-white font-[200] text-sm lg:text-lg md:text-sm">
+                <p className="text-center text-white font-[200] font-montserrat text-sm lg:text-lg md:text-sm">
                   Enter the world of Opinion Trading, where you predict
                   real-world events with a simple "yes" or "no." Just like
                   fantasy sports, your choices are based on live outcomes, and
