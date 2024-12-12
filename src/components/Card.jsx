@@ -8,7 +8,6 @@ import mf from "../assets/MF.svg";
 import arrow from "../assets/arrow1.svg";
 import arrow1 from "../assets/arrow2.svg";
 
-
 const cardData = [
   {
     imgSrc: currenct,
@@ -69,10 +68,7 @@ const Card = () => {
     <div className="w-full flex flex-col justify-center relative">
       {/* Left Arrow */}
       <div
-        className="absolute w-[70px] h-full"
-        style={{
-          background: "linear-gradient(90deg, #979797 0%, #E3E3E3 10%)",
-        }}
+        className="absolute hidden lg:block md:block w-[70px] h-full"
       >
         <button
           className="absolute left-3 top-1/2 transform bg-white -translate-y-1/2  shadow-lg rounded-full p-2 z-10"
@@ -85,12 +81,12 @@ const Card = () => {
       {/* Card Container */}
       <div
         ref={scrollRef}
-        className="w-full flex overflow-x-scroll lg:pl-10 lg:pr-14 pl-14 pr-14 hide-scrollbar scroll-smooth"
+        className="w-full flex overflow-x-scroll  lg:px-12 md:px-12 hide-scrollbar scroll-smooth"
       >
         {cardData.map((card, index) => (
           <div
             key={index}
-            className="w-full sm:w-1/2 lg:w-1/4 md:min-w-[33.33%] lg:min-w-[25%] min-w-[70%] border rounded-md shadow-lg p-4 lg:py-6 md:py-6 py-2 ml-4"
+            className="w-full sm:w-1/2 lg:w-1/4 md:min-w-[33.33%] lg:min-w-[25%] min-w-[70%] border rounded-md shadow-lg p-4 lg:py-6 md:py-6 py-2 mx-2"
           >
             <div className="mb-4">
               <img className="w-25" src={card.imgSrc} alt={card.title} />
@@ -112,17 +108,14 @@ const Card = () => {
 
       {/* Right Arrow */}
       <div
-        className="absolute right-0 w-[70px] h-full"
-        style={{
-          background: "linear-gradient(to left, #979797 0%, #E3E3E3 -10)",
-        }}
+        className="absolute hidden lg:block md:block right-0 w-[70px] h-full"
       >
-      <button
-        className="absolute right-3 top-1/2 transform -translate-y-1/2 bg-white shadow-lg rounded-full p-2 z-10"
-        onClick={scrollRight}
-      >
-        <img src={arrow1} className=""/>
-      </button>
+        <button
+          className="absolute right-3 top-1/2 transform -translate-y-1/2 bg-white shadow-lg rounded-full p-2 z-10"
+          onClick={scrollRight}
+        >
+          <img src={arrow1} className="" />
+        </button>
       </div>
     </div>
   );

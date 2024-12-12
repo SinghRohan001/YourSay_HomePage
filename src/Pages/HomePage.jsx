@@ -31,7 +31,7 @@ const HomePage = () => {
                 className="lg:max-w-[890px] xl:max-w-[1120px] md:max-w-[620px]"
               />
             </div>
-            <div className="absolute xl:mt-52 lg:mt-16 mt-52 animate-[rotateAlternating_25s_linear_infinite] z-0 hidden md:block lg:block">
+            <div className="absolute xl:mt-52 lg:mt-16 mt-52 animate-[rotateAlternating_25s_linear_infinite] z-0 hidden md:block lg:block ">
               <img
                 src={rotate2}
                 alt="Rotating background 1"
@@ -42,16 +42,19 @@ const HomePage = () => {
         </div>
 
         <div className="flex relative justify-center w-full items-start  mb-6">
-          <div className="w-[100%] lg:w-[50%] xl:w-[35%] md:w-[50%] mt-16 lg:mt-24 xl:mt-28 md:mt-20 flex flex-col justify-center">
-            <h1 className="lg:text-3xl xl:text-5xl md:text-lg w-full text-3xl lg:mt-0 md:mt-0 text-center font-montserrat font-[700] tracking-wider">
+          <div className="w-[100%] lg:w-[50%] xl:w-[35%] md:w-[50%] 2xl:w-[18%] 3xl:w-[13%] mt-16 lg:mt-24 xl:mt-28 md:mt-20 flex flex-col justify-center">
+            <h1 className="lg:text-3xl xl:text-5xl  md:text-lg 2xl:text-3xl w-full text-3xl lg:mt-0 md:mt-0 text-center font-montserrat font-[700] tracking-wider">
               Turn Your Opinions into Real Rewards!
             </h1>
-            <p className="text-center text-gray-500 lg:mt-4 xl:mt-6 md:mt-2 mt-4 lg:text-[12px] xl:text-[14px] md:text-[8px] text-sm lg:px-16 xl:px-10 md:px-16 px-2 font-montserrat font-[400]">
+            <div className="">
+            <p className="text-center text-gray-500 lg:mt-4 xl:mt-6 md:mt-2 mt-4 lg:text-[12px] xl:text-[14px] md:text-[8px] text-sm lg:px-16 xl:px-10  md:px-16  px-2 font-montserrat font-[400]">
               Welcome to YourSay, the platform where your opinions take center
               stage. Here, every 'yes' or 'no' is more than just a choice—it's
               an opportunity to win real rewards. Engage in exciting opinion
               trades and watch your insights pay off.
             </p>
+            </div>
+            
             <div className="lg:mt-4 xl:mt-6 md:mt-3 mt-4 flex justify-center">
               <button
                 type="button"
