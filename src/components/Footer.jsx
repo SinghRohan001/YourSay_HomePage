@@ -9,9 +9,15 @@ import linkedin from "../assets/linkedin.svg";
 import twitter from "../assets/twitter.svg";
 import instagram from "../assets/instagram.svg";
 import youtube from "../assets/youtube.svg";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 function Footer() {
+  const navigate = useNavigate();
+      
+        const handleDownloadClick = () => {
+          navigate('/download');
+        };
+  
   return (
     <footer className="bg-white text-black pt-8">
       <div className=" mx-auto px-4 sm:px-6 lg:px-8">
@@ -31,11 +37,10 @@ function Footer() {
             <div className="flex space-x-4">
               <button
                 className="bg-[#2E67F4] hover:bg-blue-700 focus-within:ring-4 focus-within:ring-blue-800  text-white font-montserrat font-[700] px-4 py-2 rounded-lg"
-                onClick={() =>
-                  window.open("https://trading.yoursay.live/", "_blank")
+                onClick={handleDownloadClick
                 }
               >
-                Trade Now
+                Download App
               </button>
               {/* <button className="border border-[#2E67F4] text-[#2E67F4] font-montserrat font-[700] px-4 py-2 rounded-full">
                 Trade Online

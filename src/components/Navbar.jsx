@@ -1,9 +1,14 @@
 import React, { useState } from "react";
 import logo from "../assets/yslogo.svg";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const navigate = useNavigate();
+  
+    const handleDownloadClick = () => {
+      navigate('/download');
+    };
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -30,11 +35,9 @@ const Navbar = () => {
           <button
             type="button"
             className="text-white font-montserrat font-bold bg-blue-700 border-blue-700 border-[1px] hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 rounded-lg text-sm px-3 py-2 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
-            onClick={() =>
-              window.open("https://trading.yoursay.live/", "_blank")
-            }
+            onClick={handleDownloadClick}
           >
-            Trade Now
+            Download App
           </button>
         </div>
         {/* <div>

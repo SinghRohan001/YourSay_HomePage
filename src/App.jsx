@@ -7,6 +7,8 @@ import ContactUs from './Pages/ContactUs';
 import TermsAndCondition from './Pages/TermsAndCondition';
 import Refund from './Pages/Refund';
 import Privacy from './Pages/Privacy';
+import { Download } from './components/Download';
+import WelcomeModal from './components/WelcomeModel';
 
 const App = () => {
   return (
@@ -19,7 +21,8 @@ const App = () => {
         <Route path="/terms-condition" element={<TermsAndCondition/>}/>
         <Route path="/refund-policy" element={<Refund/>}/>
         <Route path="/privacy-policy" element={<Privacy/>}/>
-
+        <Route path="/download" element={<Download/>}/>
+        <Route path="/welcome" element={<WelcomeModal/>}/>
       </Routes>
     </div>
   )

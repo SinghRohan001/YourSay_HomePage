@@ -1,32 +1,32 @@
 import React from "react";
 import container from "../assets/Down.jpg";
 // Import different images for each card
-import ai from "../assets/ai.svg";
-import megaEvents from "../assets/mega-events.svg";
-import categoryCoverage from "../assets/category-coverage.svg";
+import ai from "../assets/second.svg";
+import megaEvents from "../assets/third.svg";
+import categoryCoverage from "../assets/currency.webp (1).svg";
 
 function Card2() {
   const cards = [
     {
       id: 1,
-      title: "AI-Powered Trading Evolution",
+      title: "Revolutionizing Trading with AI Intelligence",
       description:
         "Revolutionize your trading experience with the power of AI. Get real-time insights, automated strategies, and AI-driven overviews to trade smarter and with greater confidence.",
-      image: ai,  // Image for this card
+      image: ai,
     },
     {
       id: 2,
       title: "Mega Events for High-Stakes Rewards",
       description:
         "Participate in our thrilling 'Mega Events' for a chance to win big. With larger prize pools and exciting challenges across various categories, you can push your skills to new heights and aim for substantial rewards.",
-      image: megaEvents,  // Image for this card
+      image: megaEvents,
     },
     {
       id: 3,
       title: "Comprehensive Category Coverage",
       description:
         "Explore and trade in a wide range of categories. With expanded options, you can diversify your trades effortlessly, enhancing both your strategy and potential for success.",
-      image: categoryCoverage,  // Image for this card
+      image: categoryCoverage,
     },
   ];
 
@@ -48,20 +48,20 @@ function Card2() {
       </div>
       <div className="w-full flex justify-center md:mt-2 lg:mt-8">
         <div className="flex">
-          <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 p-4 lg:p-0 xl:gap-36  gap-6 ">
+          <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 p-4 lg:p-0 xl:gap-26 gap-6">
             {cards.map((card, index) => (
               <div
                 key={card.id}
-                className="bg-white rounded-lg h-full w-full xl:h-[357px] xl:w-[350px] lg:h-[350px] lg:w-[300px]  shadow-lg p-6 flex flex-col"
+                className="bg-white rounded-lg h-full w-full xl:h-[357px] xl:w-[420px] lg:h-[350px] lg:w-[300px] shadow-lg p-6 flex flex-col"
               >
                 {/* Icon Placeholder - Using dynamic image for each card */}
-                <div className="text-4xl mb-2  flex justify-between">
+                <div className="text-4xl mb-2 w-full flex justify-between">
                   <img src={card.image} alt={`${card.title} icon`} />
                 </div>
-                <h3 className="text-xl text-[#101010] mb-2 font-montserrat font-[600]">
+                <h3 className="text-xl text-[#101010] mb-2 w-full font-montserrat font-[600]">
                   {card.title}
                 </h3>
-                <p className="text-sm text-[#6A6A6A] font-montserrat font-[400] lg:mb-4 mb-0">
+                <p className="text-sm text-[#6A6A6A] font-montserrat w-full font-[400] lg:mb-4 mb-0">
                   {card.description}
                 </p>
               </div>
