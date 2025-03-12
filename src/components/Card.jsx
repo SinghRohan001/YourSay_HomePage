@@ -65,11 +65,9 @@ const Card = () => {
   };
 
   return (
-    <div className="w-full flex flex-col justify-center relative">
+    <div className="w-full flex flex-col justify-center relative pb-16">
       {/* Left Arrow */}
-      <div
-        className="absolute hidden lg:block md:block w-[70px] h-full"
-      >
+      <div className="absolute hidden lg:block md:block w-[70px] h-full">
         <button
           className="absolute left-3 top-1/2 transform bg-white -translate-y-1/2  shadow-lg rounded-full p-2 z-10"
           onClick={scrollLeft}
@@ -107,9 +105,7 @@ const Card = () => {
       </div>
 
       {/* Right Arrow */}
-      <div
-        className="absolute hidden lg:block md:block right-0 w-[70px] h-full"
-      >
+      <div className="absolute hidden lg:block md:block right-0 w-[70px] h-full">
         <button
           className="absolute right-3 top-1/2 transform -translate-y-1/2 bg-white shadow-lg rounded-full p-2 z-10"
           onClick={scrollRight}

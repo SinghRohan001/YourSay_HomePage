@@ -11,7 +11,7 @@ export default function EasyToStart() {
       />
       
       <div className="relative w-full min-h-screen p-4 md:p-8 lg:p-16 flex flex-col">
-        <h1 className="text-3xl md:text-4xl lg:text-6xl font-[800] font-montserrat text-white leading-tight">
+        <h1 className="text-3xl md:text-4xl lg:text-6xl font-[800] font-montserrat leading-tight text-white">
           It's Easy to Start Playing with YourSay
         </h1>
         
