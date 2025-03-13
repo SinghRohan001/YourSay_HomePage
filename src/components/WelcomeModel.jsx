@@ -31,7 +31,7 @@ const WelcomeModal = ({ isOpen, onClose }) => {
         {/* Copy success message */}
         {showCopyAlert && (
           <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-16">
-            <div className="bg-green-500 text-white px-3 py-3 lg:px-6 lg:py-2 rounded-lg shadow-lg font-medium text-xs lg:text-base">
+            <div className="bg-green-500 text-white px-3 py-3 lg:px-4 lg:py-2 rounded-lg shadow-lg font-medium text-xs lg:text-base">
               Link copied successfully!
             </div>
           </div>

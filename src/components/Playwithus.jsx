@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Background from "../assets/background.svg";
 import Background1 from "../assets/svg.png";
 import { useNavigate } from "react-router-dom";
-import Background2 from "../assets/11player.svg"; // 11 player image
+import Background2 from "../assets/dream.svg"; // 11 player image
 import Background3 from "../assets/6player.svg"; // 6 player image
 import tick from "../assets/tickpic.svg";
 import tick2 from "../assets/tick2.svg";
@@ -30,7 +30,7 @@ const Playwithus = () => {
     <div className="relative">
       {/* Background image for top right */}
       <div
-        className="absolute top-0 right-0 w-full h-full bg-no-repeat"
+        className="absolute hidden lg:block md:block top-0 right-0 w-full h-full bg-no-repeat"
         style={{
           backgroundImage: `url(${Background})`,
           backgroundPosition: "top right",
@@ -40,7 +40,7 @@ const Playwithus = () => {
 
       {/* Background image for top left */}
       <div
-        className="absolute top-0 left-0 w-full h-full bg-no-repeat"
+        className="absolute hidden lg:block md:block top-0 left-0 w-full h-full bg-no-repeat"
         style={{
           backgroundImage: `url(${Background1})`,
           backgroundPosition: "top left",
@@ -69,67 +69,18 @@ const Playwithus = () => {
           {/* Updated card section based on the image provided */}
           <div className="flex flex-col lg:flex-row items-center justify-center gap-8 py-6 w-full h-full">
             {/* 11 Player Fantasy Card */}
-            <div className="w-full lg:w-1/2 rounded-lg overflow-hidden">
-              <div className="relative bg-[#F6F6F6]">
+            <div className="w-full h-full rounded-lg overflow-hidden">
+              <div className="relative bg-[#285AD7]">
                 <img
                   src={Background2}
                   alt="11 Player Cricket Fantasy"
-                  className="w-full rounded-t-lg p-4"
+                  className="w-full rounded-t-lg p-4 pb-0"
                 />
-                <div className="bg-[#285AD7] text-white p-5 flex justify-between items-center rounded-b-lg">
+                <div className="bg-[#285AD7] text-white p-4 flex justify-between items-center rounded-b-lg">
                   <h3 className="lg:text-xl font-montserrat font-semibold">
-                    11 Player Cricket Fantasy
+                    Play Fantasy across all category: Cricket, Football, Kabaddi
+                    and Basketball{" "}
                   </h3>
-
-                  {/* See more button with auto animation */}
-                  <div className="relative h-10">
-                    {/* Expanded button that automatically slides in */}
-                    <div
-                      className={`absolute right-0 overflow-hidden transition-all duration-700 h-10 ${
-                        isAnimated ? "w-32" : "w-0"
-                      }`}
-                    >
-                      <button className="bg-[#285AD7] text-white font-medium rounded-lg border border-white h-full w-32 flex items-center justify-between px-3">
-                        <span className="text-md font-semibold font-montserrat whitespace-nowrap">
-                          See more
-                        </span>
-                        <img src={tick} alt="Arrow" />
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* 6 Player Fantasy Card */}
-            <div className="w-full lg:w-1/2 rounded-lg overflow-hidden">
-              <div className="relative bg-[#F6F6F6]">
-                <img
-                  src={Background3}
-                  alt="6 Player Cricket Fantasy"
-                  className="w-full rounded-t-lg p-4"
-                />
-                <div className="bg-[#285AD7] text-white p-5 flex justify-between items-center rounded-b-lg">
-                  <h3 className="lg:text-xl font-montserrat font-semibold">
-                    6 Player Cricket Fantasy
-                  </h3>
-
-                  {/* See more button with auto animation */}
-                  <div className="relative h-10">
-                    {/* Expanded button that automatically slides in */}
-                    <div
-                      className={`absolute right-0 overflow-hidden transition-all duration-700 h-10 ${
-                        isAnimated ? "w-32" : "w-0"
-                      }`}
-                    >
-                      <button className="bg-[#285AD7] text-white font-medium rounded-lg border border-white h-full w-32 flex items-center justify-between px-3">
-                        <span className="text-md font-semibold font-montserrat whitespace-nowrap">
-                          See more
-                        </span>
-                        <img src={tick} alt="Arrow" />
-                      </button>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import WelcomeModel from "./WelcomeModel";
 import { FaArrowRight } from "react-icons/fa6";
 import { LuPhone } from "react-icons/lu";
-import bgImage from "../assets/Downloafd screen1.svg";
+import bgImage from "../assets/section1.svg";
 import bgImagetab from "../assets/123545+65.svg";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -52,7 +52,7 @@ export const Download = () => {
 
       {/* Desktop Background - visible only on lg screens and up */}
       <div
-        className="hidden lg:block fixed inset-0 w-full h-full bg-no-repeat bg-auto bg-top -z-10"
+        className="hidden lg:block fixed inset-0 w-full h-full bg-cover bg-no-repeat  bg-top -z-10"
         style={{ backgroundImage: `url(${bgImage})` }}
       />
 
@@ -76,12 +76,12 @@ export const Download = () => {
         <div className="px-4 md:px-8 lg:px-10 mx-auto">
           {/* Tablet-only heading */}
           <h1 className="hidden md:block lg:hidden  text-2xl lg:text-xl xl:text-3xl font-bold pt-12 md:pt-20 text-[#007BFF] leading-tight font-inter">
-            YourSay, a Fantasy and Opinion Trading App
+            YourSay A Cricket Fantasy App
           </h1>
 
           {/* Mobile heading */}
           <h1 className="block md:hidden text-2xl  font-bold pt-6 text-[#007BFF] leading-tight font-inter">
-            YourSay, a Fantasy and Opinion Trading App
+            YourSay A Cricket Fantasy App
           </h1>
 
           <div className="flex flex-col md:flex-row lg:flex-row lg:items-top justify-between gap-8 md:gap-4 lg:gap-0 mt-0 md:mt-12 lg:mt-20">
@@ -89,7 +89,8 @@ export const Download = () => {
             <div className="w-full md:w-1/2 lg:w-[60%] space-y-4 md:space-y-6 lg:space-y-8">
               {/* Desktop-only heading */}
               <h1 className="hidden lg:block text-3xl xl:text-[60px] lg:text-[40px] font-[900] text-[#007BFF] leading-relaxed font-inter">
-                YourSay, a Fantasy and Opinion Trading App
+                YourSay
+                <br /> A Cricket Fantasy App
               </h1>
               <div className="w-full block md:hidden  md:w-[40%] lg:w-[50%] xl:w-[46%] relative  lg:mt-0">
                 <div className="relative h-64 md:h-82 xl:h-[590px]   lg:h-62 mx-auto">
@@ -105,20 +106,22 @@ export const Download = () => {
               </div>
 
               <p className=" hidden md:block lg:block text-sm md:text-md lg:text-sm xl:text-lg text-[#007BFF] font-inter lg:max-w-sm xl:max-w-xl font-[500] leading-normal md:leading-relaxed ">
-                Welcome to YourSay, a groundbreaking app that combines opinion
-                trading and cricket fantasy gaming. Engage in real-time
-                predictions, trade opinions on trending topics, and build your
-                dream fantasy cricket team— all in one dynamic platform.
-                Connect, compete, and thrive in an interactive digital ecosystem
-                designed for sports and trading enthusiasts.
+                Build your dream team, make real-time predictions, and compete
+                in exciting fantasy cricket contests. Stay ahead with expert
+                insights, player stats, and match analysis to maximize your
+                winnings. Whether you're a seasoned strategist or a first-time
+                player, YourSay offers a seamless and thrilling fantasy cricket
+                experience. Play, compete, and rise to the top in the ultimate
+                cricketing arena!
               </p>
               <p className=" block md:hidden text-sm md:text-md lg:text-sm xl:text-lg text-[#007BFF] font-inter lg:max-w-sm xl:max-w-xl font-[500] leading-normal md:leading-relaxed ">
-                Welcome to YourSay, a groundbreaking app that combines opinion
-                trading and cricket fantasy gaming. Engage in real-time
-                predictions, trade opinions on trending topics, and build your
-                dream fantasy cricket team— all in one dynamic platform.
-                Connect, compete, and thrive in an interactive digital ecosystem
-                designed for sports and trading enthusiasts.
+                Build your dream team, make real-time predictions, and compete
+                in exciting fantasy cricket contests. Stay ahead with expert
+                insights, player stats, and match analysis to maximize your
+                winnings. Whether you're a seasoned strategist or a first-time
+                player, YourSay offers a seamless and thrilling fantasy cricket
+                experience. Play, compete, and rise to the top in the ultimate
+                cricketing arena!
               </p>
 
               {/* Mobile Number Input */}
@@ -150,7 +153,7 @@ export const Download = () => {
                 <img
                   src={play}
                   alt="YourSay App Interface"
-                  className="w-32 md:w-auto cursor-pointer"
+                  className="w-32  md:w-auto cursor-pointer"
                 />
                 <img
                   src={google}

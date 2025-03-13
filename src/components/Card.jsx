@@ -11,45 +11,47 @@ import arrow1 from "../assets/arrow2.svg";
 const cardData = [
   {
     imgSrc: currenct,
-    title: "Your Price",
-    subtitle: "Control Your Investment",
+    title: "Your Choice",
+    subtitle: "Pick Your Game, Play Your Way",
     description:
-      "Set the price at which you enter trades, giving you complete control over your actions and decisions.",
-  },
-  {
-    imgSrc: sbg,
-    title: "Your Interest",
-    subtitle: "Engage with What Matters",
-    description:
-      "From trending topics to niche interests, engage with the events and areas that you care about the most.",
-  },
-  {
-    imgSrc: fno,
-    title: "Your Investment",
-    subtitle: "Flexibility in Commitment",
-    description:
-      "Decide how much you want to commit. You control your level of involvement and can trade with ease and flexibility.",
+      "Choose the contests and formats that match your cricket passion—whether it's classic fantasy, daily challenges, or head-to-head matchups. Play where you have the edge!",
   },
   {
     imgSrc: stock,
-    title: "Your Choice",
-    subtitle: "Customize Your Category",
+    title: "Your Strategy",
+    subtitle: "Plan, Predict, and Play Smart",
     description:
-      "You have the freedom to choose not only how you participate but also which category excites you the most. Select your preferred category, set your price, and back an outcome that aligns with your passion.",
+      "Success in fantasy cricket isn’t just about luck—it’s about smart decisions. Whether you're selecting your dream XI or making transfers, every move shapes your victory",
   },
+
+  {
+    imgSrc: fno,
+    title: "Your Commitment",
+    subtitle: "Play at Your Own Pace",
+    description:
+      "Whether you prefer quick fantasy matchups or long-term trading strategies, you decide how much time and effort to invest. Play flexibly, on your terms.",
+  },
+  {
+    imgSrc: sbg,
+    title: "Your Investment",
+    subtitle: "Control Your Game, Set Your Stake",
+    description:
+      "Decide how much you want to commit—be it in fantasy leagues. Manage your risks, maximize your rewards, and play with confidence.",
+  },
+
   {
     imgSrc: comodity,
     title: "Your Insight",
-    subtitle: "Informed Decisions with Detailed Insights",
+    subtitle: "Stay Ahead with Smart Decisions",
     description:
-      "Gain a detailed overview of each trade and learn before committing. Your knowledge shapes decisions—leverage insights to influence outcomes and make smarter trades",
+      "Use real-time data, expert analysis, and performance trends to make the best calls. In fantasy knowledge is your greatest advantage.",
   },
   {
     imgSrc: mf,
     title: "Your Terms",
-    subtitle: "Set Your Own Rules",
+    subtitle: "Set the Rules That Work for You",
     description:
-      "Choose your own conditions—whether it's the price, quantity, or timing, you’re in charge of the terms that suit you best.",
+      "From selecting your fantasy squad to defining your trade conditions, you call the shots. Customize your experience and play the way that suits you best.",
   },
 ];
 
@@ -65,7 +67,7 @@ const Card = () => {
   };
 
   return (
-    <div className="w-full flex flex-col justify-center relative pb-16">
+    <div className="w-full flex flex-col justify-center relative pb-16  ">
       {/* Left Arrow */}
       <div className="absolute hidden lg:block md:block w-[70px] h-full">
         <button

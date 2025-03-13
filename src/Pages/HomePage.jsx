@@ -16,7 +16,7 @@ const HomePage = () => {
   const navigate = useNavigate();
 
   const handleDownloadClick = () => {
-    navigate('/download');
+    navigate("/download");
   };
 
   return (
@@ -53,23 +53,26 @@ const HomePage = () => {
         <div className="flex relative justify-center w-full items-start mb-6">
           <div className="w-[100%] lg:w-[51%] xl:w-[38%] md:w-[55%] 2xl:w-[25%] 3xl:w-[13%] mt-16 lg:mt-24 xl:mt-28 md:mt-20 flex flex-col justify-center">
             <h1 className="lg:text-2xl xl:text-3xl md:text-lg 2xl:text-2xl w-full text-3xl lg:mt-0 md:mt-0 text-center font-montserrat font-[700] tracking-wider">
-              Fantasy Meets Strategy Win with Your Knowledge!{" "}
+              YourSay: The Ultimate Fantasy Sports Platform
             </h1>
             <div className="">
-              <p className="text-center text-gray-500 lg:mt-4 xl:mt-6 md:mt-2 mt-4 lg:text-[11px] xl:text-[14px] md:text-[8px] text-sm lg:px-16 xl:px-10 md:px-16 px-2 font-montserrat font-[400]">
-                Welcome to YourSay, the platform where your insights take center
-                stage. Whether it's making sharp opinion trades or showcasing
-                your cricket expertise in fantasy contests, every decision you
-                make can turn into real rewards. Engage in thrilling
-                competitions, trade opinions, and experience the excitement of
-                winning like never before!
+              <p className="text-center text-gray-500 lg:mt-4 xl:mt-6 md:mt-2 mt-4 lg:text-[8px] xl:text-[14px] md:text-[7px] text-sm lg:px-16 xl:px-10 md:px-16 px-2 font-montserrat font-[400]">
+                YourSay is a cutting-edge fantasy sports application where your
+                knowledge and strategy turn into rewards. Whether you're making
+                informed decisions in fantasy cricket or testing your expertise
+                across sports, every move matters.
+                <br />
+                Engage in thrilling competitions, challenge friends, and climb
+                leaderboards with real-time updates and expert insights.
+                Experience the excitement of fantasy sports while making smarter
+                plays and claiming victory with YourSay!
               </p>
             </div>
 
             <div className="lg:mt-4 xl:mt-6 md:mt-3 mt-4 flex justify-center">
               <button
                 type="button"
-                className="text-white font-[500] font-montserrat bg-blue-600 hover:bg-blue-700 focus-within:ring-4 focus-within:ring-blue-800 border-blue-700 border-[1px] rounded-lg lg:text-md xl:text-lg md:text-md text-sm md:px-1 md:py-1 lg:px-2 lg:py-2 px-2 py-2 me-2 mb-2 cursor-pointer"
+                className="text-white font-[500] font-montserrat bg-blue-600 hover:bg-blue-700 focus-within:ring-4 focus-within:ring-blue-800 border-blue-700 border-[1px] rounded-lg lg:text-xs xl:text-lg md:text-xs text-sm md:px-1 md:py-1 lg:px-2 lg:py-2 px-2 py-2 me-2 mb-2 cursor-pointer"
                 onClick={handleDownloadClick}
               >
                 Download App Now
@@ -84,19 +87,16 @@ const HomePage = () => {
       </div>
 
       <div className="">
-        <Card1 />
-      </div>
-
-      <div className="">
-        <WhyChooseYourSay />
+        <Playwithus />
       </div>
       <div className="">
         <TradingJourney />
       </div>
 
       <div className="">
-        <Playwithus />
+        <WhyChooseYourSay />
       </div>
+
       <div>
         <Footer />
       </div>

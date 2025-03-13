@@ -5,19 +5,19 @@ import image2 from "../assets/image2.svg";
 import image3 from "../assets/image3.svg";
 import image4 from "../assets/image4.svg";
 import image5 from "../assets/image5.svg";
-import linkedin from "../assets/linkedin.svg";
-import twitter from "../assets/twitter.svg";
-import instagram from "../assets/instagram.svg";
-import youtube from "../assets/youtube.svg";
+import linkedin from "../assets/linkd.svg";
+import twitter from "../assets/twit.svg";
+import instagram from "../assets/insta.svg";
+import youtube from "../assets/yout.svg";
 import { Link, useNavigate } from "react-router-dom";
 
 function Footer() {
   const navigate = useNavigate();
-      
-        const handleDownloadClick = () => {
-          navigate('/download');
-        };
-  
+
+  const handleDownloadClick = () => {
+    navigate("/download");
+  };
+
   return (
     <footer className="bg-white text-black pt-8">
       <div className=" mx-auto px-4 sm:px-6 lg:px-8">
@@ -37,8 +37,7 @@ function Footer() {
             <div className="flex space-x-4">
               <button
                 className="bg-[#2E67F4] hover:bg-blue-700 focus-within:ring-4 focus-within:ring-blue-800  text-white font-montserrat font-[700] px-4 py-2 rounded-lg"
-                onClick={handleDownloadClick
-                }
+                onClick={handleDownloadClick}
               >
                 Download App
               </button>
@@ -75,7 +74,6 @@ function Footer() {
             <h3 className="text-lg font-[600] mb-2">Careers</h3>
             <ul className="space-y-2 font-worksans font-[400]">
               <li>Open Roles</li>
-              
             </ul>
           </div>
           <div>
@@ -99,12 +97,14 @@ function Footer() {
               About YourSay
             </h3>
             <p className="text-black font-[400] font-montserrat text-md  ">
-              YourSay is a next-generation platform built on the idea that
-              opinions matter. We empower users by turning their insights into
-              real rewards. Whether you're interested in opinion trading, sports
-              or market events. YourSay provides a seamless and secure
-              environment for all users. Our team is committed to innovation,
-              transparency, and providing the best possible experience.
+              YourSay is a next-generation fantasy cricket platform built on the
+              idea that strategic insights matter. We empower users by turning
+              their cricket knowledge into real rewards. Whether you're
+              analyzing player performance, predicting match outcomes, or
+              crafting the ultimate fantasy team, YourSay provides a seamless
+              and secure environment for all cricket enthusiasts. Our team is
+              committed to innovation, transparency, and delivering the best
+              possible fantasy gaming experience.
             </p>
           </div>
           <div className=" flex flex-col xl:w-[25vw] ">
@@ -134,19 +134,49 @@ function Footer() {
               <div className="hidden lg:block xl:w-[40vw] h-[100%] ">
                 <div className="flex justify-between">
                   {/* Placeholder for social media icons */}
-                  <div className="flex items-center space-x-2">
-                    <img src={linkedin} />
-                    <p className="font-worksans font-[600]">Linkedin</p>
+                  <div
+                    className="flex items-center space-x-2 cursor-pointer"
+                    onClick={() =>
+                      window.open(
+                        "https://www.linkedin.com/showcase/yoursay-app/about/",
+                        "_blank"
+                      )
+                    }
+                  >
+                    <img src={linkedin} alt="LinkedIn icon" />
+                    <p className="font-worksans font-[600]">LinkedIn</p>
                   </div>
-                  <div className="flex items-center space-x-2">
+                  <div className="flex items-center space-x-2 cursor-pointer"
+                  onClick={() =>
+                      window.open(
+                        "https://x.com/Yoursaylive",
+                        "_blank"
+                      )
+                    }>
                     <img src={twitter} />
                     <p className="font-worksans font-[600]">Twitter</p>
                   </div>
-                  <div className="flex items-center space-x-2">
+                  <div
+                    className="flex items-center space-x-2 cursor-pointer"
+                    onClick={() =>
+                      window.open(
+                        "https://www.instagram.com/yoursay.live/",
+                        "_blank"
+                      )
+                    }
+                  >
                     <img src={instagram} />
                     <p className="font-worksans font-[600]">Instagram</p>
                   </div>
-                  <div className="flex items-center space-x-2">
+                  <div
+                    className="flex items-center space-x-2 cursor-pointer"
+                    onClick={() =>
+                      window.open(
+                        "https://www.youtube.com/@yoursaylive/",
+                        "_blank"
+                      )
+                    }
+                  >
                     <img src={youtube} />
                     <p className="font-worksans font-[600]">Youtube</p>
                   </div>
@@ -156,11 +186,11 @@ function Footer() {
 
             <ul className="text-[#262626] space-y-2 w-full mb-2  font-montserrat">
               <li>
-                Opinion trading may involve financial risks. Please trade
+                Cricket fantasy may involve financial risks. Please trade
                 responsibly.
               </li>
               <li>
-                YourSay is available in states where permitted by law. Users in
+                Yoursay is available in states where permitted by law. Users in
                 certain states may not have access to our app or its features.
               </li>
             </ul>
