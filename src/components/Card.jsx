@@ -67,7 +67,7 @@ const Card = () => {
   };
 
   return (
-    <div className="w-full flex flex-col justify-center relative pb-16  ">
+    <div className="w-full flex flex-col bg-[#F6F6F6] justify-center relative lg:py-20 py-8  ">
       {/* Left Arrow */}
       <div className="absolute hidden lg:block md:block w-[70px] h-full">
         <button
@@ -81,12 +81,12 @@ const Card = () => {
       {/* Card Container */}
       <div
         ref={scrollRef}
-        className="w-full flex overflow-x-scroll  lg:px-12 md:px-12 hide-scrollbar scroll-smooth"
+        className="w-full flex overflow-x-scroll lg:ml-8 lg:px-12 md:px-12 hide-scrollbar scroll-smooth"
       >
         {cardData.map((card, index) => (
           <div
             key={index}
-            className="w-full sm:w-1/2 lg:w-1/4 md:min-w-[33.33%] lg:min-w-[25%] min-w-[70%] border rounded-md shadow-lg p-4 lg:py-6 md:py-6 py-2 mx-2"
+            className="w-full sm:w-1/2 lg:w-1/4 bg-white md:min-w-[33.33%] lg:min-w-[25%] min-w-[70%] border rounded-xl shadow-lg p-4 lg:py-6 md:py-6 py-2 mx-2 "
           >
             <div className="mb-4">
               <img className="w-25" src={card.imgSrc} alt={card.title} />

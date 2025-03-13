@@ -84,11 +84,11 @@ export const Download = () => {
             YourSay A Cricket Fantasy App
           </h1>
 
-          <div className="flex flex-col md:flex-row lg:flex-row lg:items-top justify-between gap-8 md:gap-4 lg:gap-0 mt-0 md:mt-12 lg:mt-20">
+          <div className="flex flex-col md:flex-row lg:flex-row lg:items-top justify-between gap-8 md:gap-4 lg:gap-0 mt-0 md:mt-12 lg:mt-24">
             {/* Left Content */}
             <div className="w-full md:w-1/2 lg:w-[60%] space-y-4 md:space-y-6 lg:space-y-8">
               {/* Desktop-only heading */}
-              <h1 className="hidden lg:block text-3xl xl:text-[60px] lg:text-[40px] font-[900] text-[#007BFF] leading-relaxed font-inter">
+              <h1 className="hidden lg:block text-3xl xl:text-[60px] lg:text-[40px] font-[900] text-[#007BFF] leading-normal font-inter">
                 YourSay
                 <br /> A Cricket Fantasy App
               </h1>
@@ -105,7 +105,7 @@ export const Download = () => {
                 </div>
               </div>
 
-              <p className=" hidden md:block lg:block text-sm md:text-md lg:text-sm xl:text-lg text-[#007BFF] font-inter lg:max-w-sm xl:max-w-xl font-[500] leading-normal md:leading-relaxed ">
+              <p className=" hidden md:block lg:block text-sm md:text-md lg:text-sm xl:text-xl text-[#007BFF] font-inter lg:max-w-sm xl:max-w-[85%]  font-[500] md:leading-loose leading-normal ">
                 Build your dream team, make real-time predictions, and compete
                 in exciting fantasy cricket contests. Stay ahead with expert
                 insights, player stats, and match analysis to maximize your

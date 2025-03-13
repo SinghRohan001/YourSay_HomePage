@@ -85,7 +85,7 @@ const TradingJourney = () => {
   }, []);
 
   return (
-    <div className="w-full mx-auto px-4 py-8 overflow-hidden">
+    <div className="w-full bg-[#F6F6F6] mx-auto px-4 py-8 overflow-hidden">
       {/* Main Heading with animation */}
       <h1
         ref={headingRef}
@@ -99,7 +99,7 @@ const TradingJourney = () => {
       {/* Cards Container with animation */}
       <div
         ref={cardsContainerRef}
-        className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:px-20 lg:py-8 opacity-0 transition-all duration-1000"
+        className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:px-16 lg:py-8 opacity-0 transition-all duration-1000"
       >
         {cards.map((card, index) => (
           <div

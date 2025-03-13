@@ -19,13 +19,13 @@ function Footer() {
   };
 
   return (
-    <footer className="bg-white text-black pt-8">
+    <footer className="bg-[#F6F6F6] text-black pt-8">
       <div className=" mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex flex-wrap border-b border-[#ACA7FF]  justify-between ">
+        <div className="flex flex-wrap border-b border-[#ACA7FF]   justify-between ">
           <div className="flex flex-col">
             {/* Logo */}
             <div className="flex items-center mb-4">
-              <img src={Yoursay} />
+              <img src={Yoursay} className="w-52"/>
             </div>
           </div>
           {/* Download and Sign In */}

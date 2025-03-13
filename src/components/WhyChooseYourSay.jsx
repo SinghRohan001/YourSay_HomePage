@@ -83,8 +83,8 @@ const WhyChooseYourSay = () => {
       {/* Content section */}
       <section className="relative z-10 bg-transparent">
         <div className="lg:mx-10 px-4 pb-4">
-          <div className="flex justify-between items-center lg:pt-6 md:pt-2 pt-1">
-            <h2 className="xl:text-[64px] lg:text-[50px] md:text-[35px] text-lg font-[600] text-[#101010] md:mb-8 lg:mb-8 mb-4 font-montserrat">
+          <div className="flex justify-between items-center lg:pt-12 md:pt-2 pt-1">
+            <h2 className="xl:text-[64px] font-bold lg:text-[50px] md:text-[35px] text-lg text-[#101010] md:mb-8 lg:mb-8 mb-4 font-montserrat">
               Why Choose YourSay
             </h2>
             <div className="flex justify-end items-center md:mb-8 lg:mb-8 mb-4">
