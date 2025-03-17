@@ -8,10 +8,15 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import play from "../assets/appstore.svg";
 import google from "../assets/Mobile app store badge.svg";
+import { Share } from "lucide-react";
+import right from "../assets/arrow-right.svg";
+import right1 from "../assets/share.svg";
+import qr from "../assets/YourSay.png";
 
 export const Download = () => {
   const [mobileNumber, setMobileNumber] = useState("");
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [showCopyAlert, setShowCopyAlert] = useState(false);
 
   const validateMobile = (number) => {
     const mobileRegex = /^[6-9]\d{9}$/;
@@ -40,6 +45,24 @@ export const Download = () => {
     }
 
     setIsModalOpen(true);
+  };
+
+  const handleShareAppLink = async () => {
+    try {
+      await navigator.clipboard.writeText("https://yoursay.live/");
+      setShowCopyAlert(true);
+
+      // Show success toast instead of separate alert
+      toast.success("Link copied successfully!");
+
+      // Hide the alert after 2 seconds
+      setTimeout(() => {
+        setShowCopyAlert(false);
+      }, 2000);
+    } catch (err) {
+      console.error("Failed to copy link:", err);
+      toast.error("Failed to copy link");
+    }
   };
 
   return (
@@ -73,24 +96,23 @@ export const Download = () => {
           isOpen={isModalOpen}
           onClose={() => setIsModalOpen(false)}
         />
-        <div className="px-4 md:px-8 lg:px-10 mx-auto">
+        <div className="px-2 md:px-8 lg:px-10 mx-auto">
           {/* Tablet-only heading */}
           <h1 className="hidden md:block lg:hidden  text-2xl lg:text-xl xl:text-3xl font-bold pt-12 md:pt-20 text-[#007BFF] leading-tight font-inter">
-            YourSay A Cricket Fantasy App
+            Welcome to YourSay
           </h1>
 
           {/* Mobile heading */}
-          <h1 className="block md:hidden text-2xl  font-bold pt-6 text-[#007BFF] leading-tight font-inter">
-            YourSay A Cricket Fantasy App
+          <h1 className="md:hidden flex  items-center justify-center text-2xl  font-bold pt-6 text-[#007BFF] leading-tight font-inter">
+            Welcome to YourSay
           </h1>
 
-          <div className="flex flex-col md:flex-row lg:flex-row lg:items-top justify-between gap-8 md:gap-4 lg:gap-0 mt-0 md:mt-12 lg:mt-24">
+          <div className="flex flex-col md:flex-row lg:flex-row lg:items-top justify-between gap-8 md:gap-4 lg:gap-0 mt-0 lg:mt-28">
             {/* Left Content */}
             <div className="w-full md:w-1/2 lg:w-[60%] space-y-4 md:space-y-6 lg:space-y-8">
               {/* Desktop-only heading */}
               <h1 className="hidden lg:block text-3xl xl:text-[60px] lg:text-[40px] font-[900] text-[#007BFF] leading-normal font-inter">
-                YourSay
-                <br /> A Cricket Fantasy App
+                Welcome to YourSay
               </h1>
               <div className="w-full block md:hidden  md:w-[40%] lg:w-[50%] xl:w-[46%] relative  lg:mt-0">
                 <div className="relative h-64 md:h-82 xl:h-[590px]   lg:h-62 mx-auto">
@@ -105,61 +127,72 @@ export const Download = () => {
                 </div>
               </div>
 
-              <p className=" hidden md:block lg:block text-sm md:text-md lg:text-sm xl:text-xl text-[#007BFF] font-inter lg:max-w-sm xl:max-w-[85%]  font-[500] md:leading-loose leading-normal ">
-                Build your dream team, make real-time predictions, and compete
-                in exciting fantasy cricket contests. Stay ahead with expert
-                insights, player stats, and match analysis to maximize your
-                winnings. Whether you're a seasoned strategist or a first-time
-                player, YourSay offers a seamless and thrilling fantasy cricket
-                experience. Play, compete, and rise to the top in the ultimate
-                cricketing arena!
+              <p className=" hidden md:block lg:block text-sm md:text-md lg:text-sm xl:text-xl text-black font-inter lg:max-w-sm xl:max-w-[85%]  font-[500] md:leading-loose leading-normal  ">
+                You are among the first 100 members to join, and we have some
+                exciting rewards waiting for you!
+                <br />
+                Download the app now and be one of the first to explore it! You
+                might also get special rewards for joining early!
+                <br />
+                Exciting rewards await our supporters and contributors in
+                shaping the platform. Stay tuned for updates on building
+                something amazing with us.
               </p>
-              <p className=" block md:hidden text-sm md:text-md lg:text-sm xl:text-lg text-[#007BFF] font-inter lg:max-w-sm xl:max-w-xl font-[500] leading-normal md:leading-relaxed ">
-                Build your dream team, make real-time predictions, and compete
-                in exciting fantasy cricket contests. Stay ahead with expert
-                insights, player stats, and match analysis to maximize your
-                winnings. Whether you're a seasoned strategist or a first-time
-                player, YourSay offers a seamless and thrilling fantasy cricket
-                experience. Play, compete, and rise to the top in the ultimate
-                cricketing arena!
+              <p className=" block md:hidden text-sm md:text-md lg:text-sm xl:text-lg text-black font-inter lg:max-w-sm xl:max-w-xl font-[500] leading-normal md:leading-relaxed ">
+                You are among the first 100 members to join, and we have some
+                exciting rewards waiting for you!
+                <br />
+                Download the app now and be one of the first to explore it! You
+                might also get special rewards for joining early!
+                <br />
+                Exciting rewards await our supporters and contributors in
+                shaping the platform. Stay tuned for updates on building
+                something amazing with us.
               </p>
 
-              {/* Mobile Number Input */}
-              <div className="relative w-full max-w-md">
-                <div className="flex items-center">
-                  <div className="absolute left-3 text-gray-400">
-                    <LuPhone size={20} />
+              <div className="flex flex-col lg:flex-row items-center justify-center p-4 bg-white rounded-lg shadow-sm max-w-md">
+                {/* QR Code */}
+                <div className="mr-4 mb-3 sm:mb-0">
+                  <div className="w-24 h-24 bg-white">
+                    <img src={qr} />
                   </div>
-                  <input
-                    type="tel"
-                    placeholder="Enter Your Mobile Number"
-                    value={mobileNumber}
-                    onChange={handleMobileChange}
-                    maxLength={10}
-                    className="w-full px-4 py-3 pl-10 pr-32 rounded-lg font-inter border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                  />
-                  <button
-                    className="absolute right-0 px-2 md:px-3 lg:px-4 py-3.5 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors duration-300 flex items-center space-x-1 md:space-x-2 font-inter text-xs md:text-sm"
-                    onClick={handleDownload}
-                  >
-                    <span>Download App</span>
-                    <FaArrowRight size={12} />
-                  </button>
                 </div>
-              </div>
 
-              {/* App Store Buttons */}
-              <div className="flex space-x-2 md:space-x-4">
-                <img
-                  src={play}
-                  alt="YourSay App Interface"
-                  className="w-32  md:w-auto cursor-pointer"
-                />
-                <img
-                  src={google}
-                  alt="YourSay App Interface"
-                  className="w-32 md:w-auto cursor-pointer"
-                />
+                {/* Content */}
+                <div className="flex flex-col flex-grow">
+                  <h2 className="lg:text-2xl hidden lg:block font-bold mb-2 font-inter text-[#007BFF] text-center lg:text-left">
+                    SCAN QR TO
+                    <br />
+                    DOWNLOAD APP
+                  </h2>
+                  <h2 className="lg:text-2xl w-full lg:hidden  font-bold mb-2 md:mt-2 font-inter text-[#007BFF] text-center ">
+                    SCAN QR TO DOWNLOAD APP
+                  </h2>
+
+                  {/* Buttons */}
+                  <div className="flex flex-row space-x-1  lg:space-y-0">
+                    <button
+                      className="bg-blue-500 hover:bg-blue-600 text-white font-medium px-1 py-1  lg:px-2 lg:py-2 flex items-center justify-center"
+                      onClick={() =>
+                        window.open(
+                          "https://yoursay-apk.b-cdn.net/yoursay.apk",
+                          "_blank"
+                        )
+                      }
+                    >
+                      Download App
+                      <img src={right} className="ml-2" alt="Arrow right" />
+                    </button>
+
+                    <button
+                      className="border border-blue-500 text-blue-500 hover:bg-blue-50 font-medium px-1 py-1 lg:px-2 lg:py-2 flex items-center justify-center"
+                      onClick={handleShareAppLink}
+                    >
+                      Share App link
+                      <img src={right1} className="ml-2" alt="Share icon" />
+                    </button>
+                  </div>
+                </div>
               </div>
             </div>
 

@@ -2,9 +2,9 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Card from "../components/Card";
-import rotate3 from "../assets/circle2.svg";
-import rotate2 from "../assets/circle4.svg";
-import rotate1 from "../assets/circle3.svg";
+import rotate3 from "../assets/Profiles 3.png";
+import rotate2 from "../assets/Profiles 2.png";
+import rotate1 from "../assets/Profiles 4.png";
 import WhyChooseYourSay from "../components/WhyChooseYourSay";
 import Card1 from "../components/Card1";
 import Card2 from "../components/Card2";
@@ -30,7 +30,7 @@ const HomePage = () => {
               <img
                 src={rotate1}
                 alt="Rotating background 3"
-                className="lg:max-w-[1050px] xl:max-w-[1400px] md:max-w-[764px]"
+                className="lg:max-w-[1050px]  xl:max-w-[1400px] md:max-w-[764px]"
               />
             </div>
             <div className="absolute xl:mt-32 lg:mt-8 mt-40 animate-[rotateAlternating2_25s_linear_infinite] z-0 hidden md:block lg:block">
