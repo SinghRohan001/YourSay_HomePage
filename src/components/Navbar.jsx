@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import logo from "../assets/yslogo.svg";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

@@ -6,8 +6,6 @@ import rotate3 from "../assets/Profiles 3.png";
 import rotate2 from "../assets/Profiles 2.png";
 import rotate1 from "../assets/Profiles 4.png";
 import WhyChooseYourSay from "../components/WhyChooseYourSay";
-import Card1 from "../components/Card1";
-import Card2 from "../components/Card2";
 import Footer from "../components/Footer";
 import Playwithus from "@/components/Playwithus";
 import TradingJourney from "@/components/TradingJourney";

@@ -3,9 +3,7 @@ import Background from "../assets/background.svg";
 import Background1 from "../assets/svg.png";
 import { useNavigate } from "react-router-dom";
 import Background2 from "../assets/bgimage.svg"; // 11 player image
-import Background3 from "../assets/6player.svg"; // 6 player image
-import tick from "../assets/tickpic.svg";
-import tick2 from "../assets/tick2.svg";
+
 
 const Playwithus = () => {
   const navigate = useNavigate();

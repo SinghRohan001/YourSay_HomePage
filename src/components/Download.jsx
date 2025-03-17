@@ -1,14 +1,9 @@
 import React, { useState } from "react";
 import WelcomeModel from "./WelcomeModel";
-import { FaArrowRight } from "react-icons/fa6";
-import { LuPhone } from "react-icons/lu";
 import bgImage from "../assets/section1.svg";
 import bgImagetab from "../assets/123545+65.svg";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import play from "../assets/appstore.svg";
-import google from "../assets/Mobile app store badge.svg";
-import { Share } from "lucide-react";
 import right from "../assets/arrow-right.svg";
 import right1 from "../assets/share.svg";
 import qr from "../assets/YourSay.png";
