@@ -29,7 +29,7 @@ function Footer() {
             </div>
           </div>
           {/* Download and Sign In */}
-          <div className="flex lg:space-x-12 items-center mb-6">
+          <div className="flex lg:space-x-12  items-center mb-6">
             <span className="text-sm hidden mr-4 md:block font-montserrat font-[400] text-[#000000]">
               For 18 years and <br />
               <span className="flex justify-end">above only</span>

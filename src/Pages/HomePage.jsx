@@ -62,7 +62,6 @@ const HomePage = () => {
                 smarter plays and big wins with YourSay!
               </p>
             </div>
-
             <div className="lg:mt-4 xl:mt-6 md:mt-3 mt-4 flex justify-center">
               <button
                 type="button"

@@ -1,3 +1,5 @@
+
+import Login1 from '../assets/Login page.png'
 import React, { useState } from "react";
 import { IoEyeOutline } from "react-icons/io5";
 import { FaRegEyeSlash } from "react-icons/fa";

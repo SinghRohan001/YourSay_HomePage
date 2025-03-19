@@ -1,5 +1,6 @@
 import React from "react";
 import container from "../assets/Down.jpg";
+// Import different images for each card
 import ai from "../assets/second.svg";
 import megaEvents from "../assets/third.svg";
 import categoryCoverage from "../assets/currency.webp (1).svg";
