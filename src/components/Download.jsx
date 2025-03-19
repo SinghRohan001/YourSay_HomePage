@@ -6,7 +6,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import right from "../assets/arrow-right.svg";
 import right1 from "../assets/share.svg";
-import qr from "../assets/yourSay-new.png";
+import qr from "../assets/yoursay-new.png";
 
 export const Download = () => {
   const [mobileNumber, setMobileNumber] = useState("");
