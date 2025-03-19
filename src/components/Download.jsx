@@ -1,17 +1,12 @@
 import React, { useState } from "react";
 import WelcomeModel from "./WelcomeModel";
-import { FaArrowRight } from "react-icons/fa6";
-import { LuPhone } from "react-icons/lu";
 import bgImage from "../assets/section1.svg";
 import bgImagetab from "../assets/123545+65.svg";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import play from "../assets/appstore.svg";
-import google from "../assets/Mobile app store badge.svg";
-import { Share } from "lucide-react";
 import right from "../assets/arrow-right.svg";
 import right1 from "../assets/share.svg";
-import qr from "../assets/yourSay-new.png";
+import qr from "../assets/YourSay.png";
 
 export const Download = () => {
   const [mobileNumber, setMobileNumber] = useState("");
@@ -107,11 +102,11 @@ export const Download = () => {
             Welcome to YourSay
           </h1>
 
-          <div className="flex flex-col md:flex-row lg:flex-row lg:items-top justify-between gap-8 md:gap-4 lg:gap-0">
+          <div className="flex flex-col md:flex-row lg:flex-row lg:items-top justify-between gap-8 md:gap-4 lg:gap-0 mt-0 lg:mt-28">
             {/* Left Content */}
-            <div className="w-full md:w-1/2 lg:w-[60%] space-y-4 md:space-y-6 lg:space-y-8  mt-0 lg:mt-40">
+            <div className="w-full md:w-1/2 lg:w-[60%] space-y-4 md:space-y-6 lg:space-y-8">
               {/* Desktop-only heading */}
-              <h1 className="hidden lg:block text-3xl xl:text-[60px] lg:text-[40px] font-[900] text-[#007BFF] font-inter">
+              <h1 className="hidden lg:block text-3xl xl:text-[60px] lg:text-[40px] font-[900] text-[#007BFF] leading-normal font-inter">
                 Welcome to YourSay
               </h1>
               <div className="w-full block md:hidden  md:w-[40%] lg:w-[50%] xl:w-[46%] relative  lg:mt-0">
@@ -150,17 +145,17 @@ export const Download = () => {
                 something amazing with us.
               </p>
 
-              <div className="flex flex-col lg:flex-row items-center justify-center">
+              <div className="flex flex-col lg:flex-row items-center justify-center p-4 bg-white rounded-lg shadow-sm max-w-md">
                 {/* QR Code */}
-                <div className="lg:mr-10 mb-3 sm:mb-0">
-                  <div className="w-32 h-32 bg-white">
+                <div className="mr-4 mb-3 sm:mb-0">
+                  <div className="w-24 h-24 bg-white">
                     <img src={qr} />
                   </div>
                 </div>
 
                 {/* Content */}
                 <div className="flex flex-col flex-grow">
-                  <h2 className="lg:text-2xl hidden lg:block  font-bold mb-2 font-inter text-[#007BFF] text-center lg:text-left">
+                  <h2 className="lg:text-2xl hidden lg:block font-bold mb-2 font-inter text-[#007BFF] text-center lg:text-left">
                     SCAN QR TO
                     <br />
                     DOWNLOAD APP
@@ -170,12 +165,12 @@ export const Download = () => {
                   </h2>
 
                   {/* Buttons */}
-                  <div className="flex flex-row lg:space-y-0 mt-2">
+                  <div className="flex flex-row space-x-1  lg:space-y-0">
                     <button
                       className="bg-blue-500 hover:bg-blue-600 text-white font-medium px-1 py-1  lg:px-2 lg:py-2 flex items-center justify-center"
                       onClick={() =>
                         window.open(
-                          "https://yoursay-apk.b-cdn.net/new-yoursay.apk",
+                          "https://yoursay-apk.b-cdn.net/yoursay.apk",
                           "_blank"
                         )
                       }
@@ -197,7 +192,7 @@ export const Download = () => {
             </div>
 
             {/* Right Content - Phone Mockup */}
-            <div className=" hidden md:block lg:block w-full md:w-[40%] lg:w-[50%] xl:w-[46%] relative lg:mt-20">
+            <div className=" hidden md:block lg:block w-full md:w-[40%] lg:w-[50%] xl:w-[46%] relative  lg:mt-0">
               <div className="relative h-64 md:h-82 xl:h-[590px]   lg:h-62 mx-auto">
                 <div className="absolute -z-10 rounded-full top-1/2 left-1/2"></div>
                 <div className="w-full h-full rounded-2xl md:rounded-[2rem]">

@@ -2,7 +2,8 @@ import React, { useEffect, useState } from "react";
 import Background from "../assets/background.svg";
 import Background1 from "../assets/svg.png";
 import { useNavigate } from "react-router-dom";
-import Background2 from "../assets/frame1.svg"; // 11 player image
+import Background2 from "../assets/bgimage.svg"; // 11 player image
+
 
 const Playwithus = () => {
   const navigate = useNavigate();
