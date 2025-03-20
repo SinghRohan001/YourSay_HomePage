@@ -7,6 +7,7 @@ import "react-toastify/dist/ReactToastify.css";
 import right from "../assets/arrow-right.svg";
 import right1 from "../assets/share.svg";
 import qr from "../assets/yoursay-new.png";
+import gif from "../assets/Recent updated1.gif"
 
 export const Download = () => {
   const [mobileNumber, setMobileNumber] = useState("");
@@ -197,7 +198,7 @@ export const Download = () => {
                 <div className="absolute -z-10 rounded-full top-1/2 left-1/2"></div>
                 <div className="w-full h-full rounded-2xl md:rounded-[2rem]">
                   <img
-                    src="https://res.cloudinary.com/dcm2nozgx/image/upload/v1741330500/Grey_Frame_fftheg.gif"
+                    src={gif}
                     alt="YourSay App Interface"
                     className="w-full h-full object-cover"
                   />
