@@ -25,7 +25,7 @@ function Footer() {
           <div className="flex flex-col">
             {/* Logo */}
             <div className="flex items-center mb-4">
-              <img src={Yoursay} className="w-52"/>
+              <img src={Yoursay} className="w-52" />
             </div>
           </div>
           {/* Download and Sign In */}
@@ -59,15 +59,18 @@ function Footer() {
               <Link to="/terms-condition" className="hover:text-blue-700">
                 <li>Terms and Conditions</li>
               </Link>
+              <Link to="/fairplay" className="hover:text-blue-700">
+                <li>Fairplay Policy</li>
+              </Link>
             </ul>
           </div>
           <div>
             <h3 className="text-lg font-[600] mb-2">Resources</h3>
             <ul className="space-y-2 font-worksans font-[400]">
               <li>Help Centre</li>
-              {/* <Link to="/refund-policy" className="hover:text-blue-700">
+              <Link to="/refund-policy" className="hover:text-blue-700">
                 <li>Refund and Cancellation policy</li>
-              </Link> */}
+              </Link>
             </ul>
           </div>
           <div>
@@ -84,8 +87,13 @@ function Footer() {
               </h3>
             </Link>
             <ul className="space-y-2 font-worksans  lg:w-full font-[400]">
-              <li>help@yoursay.live</li>
-              <li className="break-words">communication@yoursay.live</li>
+              <Link>
+                {" "}
+                <li>help@yoursay.live</li>
+              </Link>
+              <Link>
+                <li className="break-words">communication@yoursay.live</li>
+              </Link>
             </ul>
           </div>
         </div>
@@ -146,13 +154,12 @@ function Footer() {
                     <img src={linkedin} alt="LinkedIn icon" />
                     <p className="font-worksans font-[600]">LinkedIn</p>
                   </div>
-                  <div className="flex items-center space-x-2 cursor-pointer"
-                  onClick={() =>
-                      window.open(
-                        "https://x.com/Yoursaylive",
-                        "_blank"
-                      )
-                    }>
+                  <div
+                    className="flex items-center space-x-2 cursor-pointer"
+                    onClick={() =>
+                      window.open("https://x.com/Yoursaylive", "_blank")
+                    }
+                  >
                     <img src={twitter} />
                     <p className="font-worksans font-[600]">Twitter</p>
                   </div>
