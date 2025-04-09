@@ -6,7 +6,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import right from "../assets/arrow-right.svg";
 import right1 from "../assets/share.svg";
-import qr from "../assets/qr code.png";
+import qr from "../assets/code.png";
 import gif from "../assets/Recent updated1.gif"
 
 export const Download = () => {
@@ -171,7 +171,7 @@ export const Download = () => {
                       className="bg-blue-500 hover:bg-blue-600 text-white font-medium px-1 py-1  lg:px-2 lg:py-2 flex items-center justify-center"
                       onClick={() =>
                         window.open(
-                          "https://play.google.com/store/apps/details?id=com.yoursay.live&pcampaignid=web_share",
+                          "https://yoursayimages.b-cdn.net/YourSay.apk",
                           "_blank"
                         )
                       }
