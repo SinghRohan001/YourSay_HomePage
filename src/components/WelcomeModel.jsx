@@ -49,7 +49,7 @@ const WelcomeModal = ({ isOpen, onClose }) => {
 
           <div className="space-y-6 sm:space-y-8 md:space-y-10 text-center">
             <h1 className="text-2xl sm:text-3xl md:text-4xl font-inter font-[700]">
-              Welcome to YourSay
+              Welcome to YourSay Opinion trading
             </h1>
             <p className="text-base sm:text-lg font-inter font-[500] px-1">
               🎉 You are among the first 100 members to join, and we have some
