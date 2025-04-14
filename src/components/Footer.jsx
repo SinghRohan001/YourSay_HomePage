@@ -62,15 +62,15 @@ function Footer() {
               <Link to="/fairplay" className="hover:text-blue-700">
                 <li>Fairplay Policy</li>
               </Link>
+              <Link to="/refund-policy" className="hover:text-blue-700">
+                <li>Refund Policy</li>
+              </Link>
             </ul>
           </div>
           <div>
             <h3 className="text-lg font-[600] mb-2">Resources</h3>
             <ul className="space-y-2 font-worksans font-[400]">
               <li>Help Centre</li>
-              <Link to="/refund-policy" className="hover:text-blue-700">
-                <li>Refund and Cancellation policy</li>
-              </Link>
             </ul>
           </div>
           <div>
