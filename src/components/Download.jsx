@@ -8,6 +8,7 @@ import right from "../assets/arrow-right.svg";
 import right1 from "../assets/share.svg";
 import qr from "../assets/code.png";
 import gif from "../assets/Recent updated1.gif"
+import qrn from "../assets/QR.svg"
 
 export const Download = () => {
   const [mobileNumber, setMobileNumber] = useState("");
@@ -45,7 +46,7 @@ export const Download = () => {
 
   const handleShareAppLink = async () => {
     try {
-      await navigator.clipboard.writeText("https://yoursay.live/");
+      await navigator.clipboard.writeText("https://play.google.com/store/search?q=yoursay&c=apps&hl=en");
       setShowCopyAlert(true);
 
       // Show success toast instead of separate alert
@@ -150,7 +151,7 @@ export const Download = () => {
                 {/* QR Code */}
                 <div className="lg:mr-10 mb-3 sm:mb-0">
                   <div className="w-32 h-32 bg-white">
-                    <img src={qr} />
+                    <img src={qrn} />
                   </div>
                 </div>
 
@@ -171,7 +172,7 @@ export const Download = () => {
                       className="bg-blue-500 hover:bg-blue-600 text-white font-medium px-1 py-1  lg:px-2 lg:py-2 flex items-center justify-center"
                       onClick={() =>
                         window.open(
-                          "https://yoursay-app.b-cdn.net/yoursay-app.apk",
+                          "https://play.google.com/store/search?q=yoursay&c=apps&hl=en",
                           "_blank"
                         )
                       }
