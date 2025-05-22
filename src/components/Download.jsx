@@ -4,10 +4,11 @@ import bgImage from "../assets/section1.svg";
 import bgImagetab from "../assets/123545+65.svg";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import right from "../assets/arrow-right.svg";
-import right1 from "../assets/share.svg";
-import qr from "../assets/code.png";
-import gif from "../assets/Recent updated1.gif"
+import play from "../assets/play.svg";
+import apple from "../assets/apple.svg";
+import gif from "../assets/Recent updated1.gif";
+import live from "../assets/Live Now.gif";
+import yoursay from "../assets/Yoursay1.svg";
 
 export const Download = () => {
   const [mobileNumber, setMobileNumber] = useState("");
@@ -45,7 +46,9 @@ export const Download = () => {
 
   const handleShareAppLink = async () => {
     try {
-      await navigator.clipboard.writeText("https://yoursay.live/");
+      await navigator.clipboard.writeText(
+        "https://play.google.com/store/search?q=yoursay&c=apps&hl=en"
+      );
       setShowCopyAlert(true);
 
       // Show success toast instead of separate alert
@@ -92,24 +95,18 @@ export const Download = () => {
           isOpen={isModalOpen}
           onClose={() => setIsModalOpen(false)}
         />
-        <div className="px-2 md:px-8 lg:px-10 mx-auto">
+        <div className="px-2 md:px-8 lg:px-16 mx-auto">
           {/* Tablet-only heading */}
-          <h1 className="hidden md:block lg:hidden  text-2xl lg:text-xl xl:text-3xl font-bold pt-12 md:pt-20 text-[#007BFF] leading-tight font-inter">
-            Welcome to YourSay
-          </h1>
-
-          {/* Mobile heading */}
-          <h1 className="md:hidden flex  items-center justify-center text-2xl  font-bold pt-6 text-[#007BFF] leading-tight font-inter">
-            Welcome to YourSay
-          </h1>
 
           <div className="flex flex-col md:flex-row lg:flex-row lg:items-top justify-between gap-8 md:gap-4 lg:gap-0">
             {/* Left Content */}
-            <div className="w-full md:w-1/2 lg:w-[60%] space-y-4 md:space-y-6 lg:space-y-8  mt-0 lg:mt-40">
+            <div className="w-full md:w-1/2 lg:w-[60%]   mt-0 lg:mt-32">
               {/* Desktop-only heading */}
-              <h1 className="hidden lg:block text-3xl xl:text-[60px] lg:text-[40px] font-[900] text-[#007BFF] font-inter">
-                Welcome to YourSay
-              </h1>
+              <div className="flex  lg:w-[100%] w-[60%]">
+                <img src={yoursay} className=""/>
+                <img src={live} className="lg:w-[18%] w-[50%]" />
+              </div>
+
               <div className="w-full block md:hidden  md:w-[40%] lg:w-[50%] xl:w-[46%] relative  lg:mt-0">
                 <div className="relative h-64 md:h-82 xl:h-[590px]   lg:h-62 mx-auto">
                   <div className="absolute -z-10 rounded-full top-1/2 left-1/2"></div>
@@ -122,71 +119,81 @@ export const Download = () => {
                   </div>
                 </div>
               </div>
+              <h1 className="text-md lg:text-3xl font-inter mb-2 font-semibold  ">
+                YourSay Fantasy Cricket App is Now Live!
+              </h1>
 
-              <p className=" hidden md:block lg:block text-sm md:text-md lg:text-sm xl:text-xl text-black font-inter lg:max-w-sm xl:max-w-[85%]  font-[500] md:leading-loose leading-normal  ">
-                You are among the first 100 members to join, and we have some
-                exciting rewards waiting for you!
-                <br />
-                Download the app now and be one of the first to explore it! You
-                might also get special rewards for joining early!
-                <br />
-                Exciting rewards await our supporters and contributors in
-                shaping the platform. Stay tuned for updates on building
-                something amazing with us.
+              <p className=" hidden md:block lg:block mb-4  xl:text-lg text-black font-inter lg:max-w-sm xl:max-w-[70%] font-[500] leading-[2rem] ">
+                The YourSay fantasy cricket app is now live on the Play Store.
+                Draft your team, play smart, and win real rewards with live
+                leaderboards and expert insights.
               </p>
-              <p className=" block md:hidden text-sm md:text-md lg:text-sm xl:text-lg text-black font-inter lg:max-w-sm xl:max-w-xl font-[500] leading-normal md:leading-relaxed ">
-                You are among the first 100 members to join, and we have some
-                exciting rewards waiting for you!
-                <br />
-                Download the app now and be one of the first to explore it! You
-                might also get special rewards for joining early!
-                <br />
-                Exciting rewards await our supporters and contributors in
-                shaping the platform. Stay tuned for updates on building
-                something amazing with us.
+              <p className=" block md:hidden text-sm md:text-md lg:text-sm xl:text-lg text-black font-inter lg:max-w-sm xl:max-w-xl font-[500]  md:leading-relaxed leading-8 mb-4 lg:mb-0">
+                The YourSay fantasy cricket app is now live on the Play Store.
+                Draft your team, play smart, and win real rewards with live
+                leaderboards and expert insights.
               </p>
 
-              <div className="flex flex-col lg:flex-row items-center justify-center">
-                {/* QR Code */}
-                <div className="lg:mr-10 mb-3 sm:mb-0">
-                  <div className="w-32 h-32 bg-white">
-                    <img src={qr} />
-                  </div>
-                </div>
+              <div className="flex flex-col lg:flex-row items-start lg:pt-32 ">
+                <div className="flex flex-col  ">
+                  <div className="flex flex-col lg:flex-row gap-1 lg:gap-5">
+                    {/* Google Play Store Button */}
+                    <div className="flex flex-col">
+                      <p className="font-inter lg:text-sm text-black font-semibold mb-1 lg:mb-4">
+                        Download now
+                      </p>
 
-                {/* Content */}
-                <div className="flex flex-col flex-grow">
-                  <h2 className="lg:text-2xl hidden lg:block  font-bold mb-2 font-inter text-[#007BFF] text-center lg:text-left">
-                    SCAN QR TO
-                    <br />
-                    DOWNLOAD APP
-                  </h2>
-                  <h2 className="lg:text-2xl w-full lg:hidden  font-bold mb-2 md:mt-2 font-inter text-[#007BFF] text-center ">
-                    SCAN QR TO DOWNLOAD APP
-                  </h2>
+                      <button
+                        onClick={() =>
+                          window.open(
+                            "https://play.google.com/store/search?q=yoursay&c=apps&hl=en",
+                            "_blank"
+                          )
+                        }
+                        onKeyDown={(e) =>
+                          handleKeyDown(e, handlePlayStoreClick)
+                        }
+                        className="flex items-center bg-[#454545] text-white no-underline px-5 py-3 rounded-lg transition-all duration-300 lg:min-w-[200px] cursor-pointer border-none hover:bg-gray-700 hover:-translate-y-0.5 hover:shadow-lg active:translate-y-0 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+                      >
+                        <div className="w-8 h-8 mr-3 flex-shrink-0 rounded-md relative overflow-hidden">
+                          <img src={play} />
+                        </div>
+                        <div className="flex justify-start flex-col ">
+                          <span className=" flex font-inter font-extralight justify-start text-xs opacity-80 ">
+                            Get it on
+                          </span>
+                          <span className="text-xl font-inter font-semibold">
+                            Play Store
+                          </span>
+                        </div>
+                      </button>
+                    </div>
 
-                  {/* Buttons */}
-                  <div className="flex flex-row lg:space-y-0 mt-2">
-                    <button
-                      className="bg-blue-500 hover:bg-blue-600 text-white font-medium px-1 py-1  lg:px-2 lg:py-2 flex items-center justify-center"
-                      onClick={() =>
-                        window.open(
-                          "https://yoursay-app.b-cdn.net/yoursay-app.apk",
-                          "_blank"
-                        )
-                      }
-                    >
-                      Download App
-                      <img src={right} className="ml-2" alt="Arrow right" />
-                    </button>
-
-                    <button
-                      className="border border-blue-500 text-blue-500 hover:bg-blue-50 font-medium px-1 py-1 lg:px-2 lg:py-2 flex items-center justify-center"
-                      onClick={handleShareAppLink}
-                    >
-                      Share App link
-                      <img src={right1} className="ml-2" alt="Share icon" />
-                    </button>
+                    {/* Apple App Store Button */}
+                    <div className="flex flex-col">
+                      <p className="font-inter lg:text-sm text-black font-semibold mb-1 mt-2 lg:mt-0 lg:mb-4">
+                        Launching soon
+                      </p>
+                      <button
+                        // onClick={handlePlayStoreClick}
+                        onKeyDown={(e) =>
+                          handleKeyDown(e, handlePlayStoreClick)
+                        }
+                        className="flex items-center bg-[#454545] text-white no-underline px-5 py-3 rounded-lg transition-all duration-300 lg:min-w-[200px] cursor-pointer border-none active:translate-y-0"
+                      >
+                        <div className=" mr-3 flex-shrink-0 rounded-md relative overflow-hidden">
+                          <img src={apple} className="w-8 h-8" />
+                        </div>
+                        <div className="flex justify-start flex-col ">
+                          <span className=" flex font-inter font-extralight justify-start text-xs opacity-80 ">
+                            Coming Soon on
+                          </span>
+                          <span className="text-xl font-inter font-semibold">
+                            App Store
+                          </span>
+                        </div>
+                      </button>
+                    </div>
                   </div>
                 </div>
               </div>
