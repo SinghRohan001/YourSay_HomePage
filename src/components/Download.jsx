@@ -9,6 +9,10 @@ import apple from "../assets/apple.svg";
 import gif from "../assets/Recent updated1.gif";
 import live from "../assets/Live Now.gif";
 import yoursay from "../assets/Yoursay1.svg";
+import play1 from "../assets/play2.svg";
+import app1 from "../assets/app2.svg";
+import play3 from "../assets/play3.svg";
+import app3 from "../assets/app3.svg";
 
 export const Download = () => {
   const [mobileNumber, setMobileNumber] = useState("");
@@ -98,13 +102,13 @@ export const Download = () => {
         <div className="px-2 md:px-8 lg:px-16 mx-auto">
           {/* Tablet-only heading */}
 
-          <div className="flex flex-col md:flex-row lg:flex-row lg:items-top justify-between gap-8 md:gap-4 lg:gap-0">
+          <div className="flex flex-col  md:flex-row lg:flex-row lg:items-top justify-between gap-8 md:gap-4 lg:gap-0">
             {/* Left Content */}
             <div className="w-full md:w-1/2 lg:w-[60%]   mt-0 lg:mt-32">
               {/* Desktop-only heading */}
-              <div className="flex  lg:w-[100%] w-[60%]">
-                <img src={yoursay} className=""/>
-                <img src={live} className="lg:w-[18%] w-[50%]" />
+              <div className="flex  lg:w-[100%] w-[56%]">
+                <img src={yoursay} className="" />
+                <img src={live} className="lg:w-[18%] w-[50%]" /> 
               </div>
 
               <div className="w-full block md:hidden  md:w-[40%] lg:w-[50%] xl:w-[46%] relative  lg:mt-0">
@@ -119,7 +123,7 @@ export const Download = () => {
                   </div>
                 </div>
               </div>
-              <h1 className="text-md lg:text-3xl font-inter mb-2 font-semibold  ">
+              <h1 className="text-xl lg:text-3xl font-inter mb-2 font-semibold  ">
                 YourSay Fantasy Cricket App is Now Live!
               </h1>
 
@@ -128,71 +132,73 @@ export const Download = () => {
                 Draft your team, play smart, and win real rewards with live
                 leaderboards and expert insights.
               </p>
-              <p className=" block md:hidden text-sm md:text-md lg:text-sm xl:text-lg text-black font-inter lg:max-w-sm xl:max-w-xl font-[500]  md:leading-relaxed leading-8 mb-4 lg:mb-0">
+              <p className=" block md:hidden text-md md:text-md lg:text-sm xl:text-lg text-black font-inter lg:max-w-sm xl:max-w-xl font-[500]  leading-relaxed  mb-4 lg:mb-0">
                 The YourSay fantasy cricket app is now live on the Play Store.
                 Draft your team, play smart, and win real rewards with live
                 leaderboards and expert insights.
               </p>
 
-              <div className="flex flex-col lg:flex-row items-start lg:pt-32 ">
+              <div className="flex flex-col lg:flex-row items-start lg:pt-24 ">
                 <div className="flex flex-col  ">
                   <div className="flex flex-col lg:flex-row gap-1 lg:gap-5">
                     {/* Google Play Store Button */}
-                    <div className="flex flex-col">
+                    <div className="hidden lg:flex lg:flex-col  ">
                       <p className="font-inter lg:text-sm text-black font-semibold mb-1 lg:mb-4">
                         Download now
                       </p>
-
-                      <button
-                        onClick={() =>
-                          window.open(
-                            "https://play.google.com/store/search?q=yoursay&c=apps&hl=en",
-                            "_blank"
-                          )
-                        }
-                        onKeyDown={(e) =>
-                          handleKeyDown(e, handlePlayStoreClick)
-                        }
-                        className="flex items-center bg-[#454545] text-white no-underline px-5 py-3 rounded-lg transition-all duration-300 lg:min-w-[200px] cursor-pointer border-none hover:bg-gray-700 hover:-translate-y-0.5 hover:shadow-lg active:translate-y-0 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+                      <a
+                        href="https://play.google.com/store/search?q=yoursay&c=apps&hl=en"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="w-52 "
                       >
-                        <div className="w-8 h-8 mr-3 flex-shrink-0 rounded-md relative overflow-hidden">
-                          <img src={play} />
-                        </div>
-                        <div className="flex justify-start flex-col ">
-                          <span className=" flex font-inter font-extralight justify-start text-xs opacity-80 ">
-                            Get it on
-                          </span>
-                          <span className="text-xl font-inter font-semibold">
-                            Play Store
-                          </span>
-                        </div>
-                      </button>
+                        <img src={play1} alt="Download on Play Store" />
+                      </a>
                     </div>
 
                     {/* Apple App Store Button */}
-                    <div className="flex flex-col">
+                    <div className="hidden lg:flex lg:flex-col ">
                       <p className="font-inter lg:text-sm text-black font-semibold mb-1 mt-2 lg:mt-0 lg:mb-4">
                         Launching soon
                       </p>
-                      <button
-                        // onClick={handlePlayStoreClick}
-                        onKeyDown={(e) =>
-                          handleKeyDown(e, handlePlayStoreClick)
-                        }
-                        className="flex items-center bg-[#454545] text-white no-underline px-5 py-3 rounded-lg transition-all duration-300 lg:min-w-[200px] cursor-pointer border-none active:translate-y-0"
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="w-52 "
                       >
-                        <div className=" mr-3 flex-shrink-0 rounded-md relative overflow-hidden">
-                          <img src={apple} className="w-8 h-8" />
-                        </div>
-                        <div className="flex justify-start flex-col ">
-                          <span className=" flex font-inter font-extralight justify-start text-xs opacity-80 ">
-                            Coming Soon on
-                          </span>
-                          <span className="text-xl font-inter font-semibold">
-                            App Store
-                          </span>
-                        </div>
-                      </button>
+                        <img src={app1} alt="Download on Play Store" />
+                      </a>
+                    </div>
+
+                    <div className="flex gap-4">
+                      {/* Google Play Store Button */}
+                      <div className="lg:hidden flex flex-col">
+                        <p className="font-inter lg:text-sm text-black font-semibold mb-2">
+                          Download now
+                        </p>
+                        <a
+                          href="https://play.google.com/store/search?q=yoursay&c=apps&hl=en"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="w-40 "
+                        >
+                          <img src={play3} alt="Download on Play Store" />
+                        </a>
+                      </div>
+
+                      {/* Apple App Store Button */}
+                      <div className="lg:hidden flex flex-col ">
+                        <p className="font-inter lg:text-sm text-black font-semibold mb-2">
+                          Launching soon
+                        </p>
+                        <a
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="w-40 "
+                        >
+                          <img src={app3} alt="Download on Play Store" />
+                        </a>
+                      </div>
                     </div>
                   </div>
                 </div>
